@@ -1,0 +1,239 @@
+{
+  "title": "Game 26 — Sports Seasons",
+  "rounds": [
+    {
+      "question": "Name a sport with a specific season",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Football",
+          "points": 42
+        },
+        {
+          "text": "Baseball",
+          "points": 26
+        },
+        {
+          "text": "Skiing",
+          "points": 18
+        },
+        {
+          "text": "Hockey",
+          "points": 7
+        },
+        {
+          "text": "Basketball",
+          "points": 2
+        },
+        {
+          "text": "Hunting",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Name a bad occupation for a person who's afraid of heights",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Window Washer",
+          "points": 45
+        },
+        {
+          "text": "Construction",
+          "points": 22
+        },
+        {
+          "text": "Pilot",
+          "points": 15
+        },
+        {
+          "text": "Painter",
+          "points": 4
+        },
+        {
+          "text": "Roofer",
+          "points": 4
+        },
+        {
+          "text": "Flight Attendant",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "question": "Name something that goes great with potato chips",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "Dips",
+          "points": 70
+        },
+        {
+          "text": "Hamburgers",
+          "points": 8
+        },
+        {
+          "text": "Hot Dogs",
+          "points": 8
+        },
+        {
+          "text": "Soda",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "question": "Name something that husbands & wives fight over the use of",
+      "multiplier": 3,
+      "answers": [
+        {
+          "text": "Car",
+          "points": 32
+        },
+        {
+          "text": "Money",
+          "points": 24
+        },
+        {
+          "text": "Bathroom",
+          "points": 21
+        },
+        {
+          "text": "TV",
+          "points": 15
+        },
+        {
+          "text": "Telephone",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "fast_money": {
+    "target": 200,
+    "questions": [
+      {
+        "question": "Name the food you eat most often as a snack",
+        "answers": [
+          {
+            "text": "Potato Chips",
+            "points": 39
+          },
+          {
+            "text": "Candy",
+            "points": 10
+          },
+          {
+            "text": "Popcorn",
+            "points": 10
+          },
+          {
+            "text": "Cheese & Crackers",
+            "points": 9
+          },
+          {
+            "text": "Cookies",
+            "points": 9
+          },
+          {
+            "text": "Ice Cream",
+            "points": 8
+          }
+        ]
+      },
+      {
+        "question": "Name something that puts people to sleep",
+        "answers": [
+          {
+            "text": "Medication",
+            "points": 22
+          },
+          {
+            "text": "Reading",
+            "points": 16
+          },
+          {
+            "text": "Music",
+            "points": 14
+          },
+          {
+            "text": "TV",
+            "points": 12
+          },
+          {
+            "text": "Milk",
+            "points": 8
+          },
+          {
+            "text": "Anesthesia",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "question": "Name a sport you must have a racquet to play",
+        "answers": [
+          {
+            "text": "Tennis",
+            "points": 92
+          },
+          {
+            "text": "Racquetball",
+            "points": 5
+          },
+          {
+            "text": "Badminton",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "question": "Name an instrument in a rock band",
+        "answers": [
+          {
+            "text": "Guitar",
+            "points": 57
+          },
+          {
+            "text": "Drum",
+            "points": 39
+          },
+          {
+            "text": "Organ",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "question": "Name a song with the word \"Blue\" in its title",
+        "answers": [
+          {
+            "text": "Blue Moon",
+            "points": 31
+          },
+          {
+            "text": "Blue Suede Shoes",
+            "points": 20
+          },
+          {
+            "text": "Blue Velvet",
+            "points": 10
+          },
+          {
+            "text": "Blue Hawaii",
+            "points": 8
+          },
+          {
+            "text": "Blue Skis",
+            "points": 5
+          },
+          {
+            "text": "My Blue Heaven",
+            "points": 5
+          }
+        ]
+      }
+    ]
+  }
+}

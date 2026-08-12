@@ -1,0 +1,255 @@
+{
+  "title": "Game 15 — Stocking Stuffers",
+  "rounds": [
+    {
+      "question": "Name something you find in your Christmas stocking",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Candy",
+          "points": 62
+        },
+        {
+          "text": "Fruit",
+          "points": 15
+        },
+        {
+          "text": "Coal",
+          "points": 5
+        },
+        {
+          "text": "Perfume",
+          "points": 5
+        },
+        {
+          "text": "Money",
+          "points": 3
+        },
+        {
+          "text": "Toys",
+          "points": 3
+        },
+        {
+          "text": "Nuts",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "question": "Name something that melts easily",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Butter",
+          "points": 36
+        },
+        {
+          "text": "Ice Cream",
+          "points": 29
+        },
+        {
+          "text": "Ice",
+          "points": 14
+        },
+        {
+          "text": "Cheese",
+          "points": 8
+        },
+        {
+          "text": "Chocolate",
+          "points": 8
+        },
+        {
+          "text": "Snow",
+          "points": 3
+        },
+        {
+          "text": "Wax",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Name something that sinks a ship",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "Torpedo",
+          "points": 56
+        },
+        {
+          "text": "Iceberg",
+          "points": 29
+        },
+        {
+          "text": "Hole",
+          "points": 9
+        },
+        {
+          "text": "Coral",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Name a soup that's often home made",
+      "multiplier": 3,
+      "answers": [
+        {
+          "text": "Vegetable",
+          "points": 50
+        },
+        {
+          "text": "Chicken",
+          "points": 41
+        },
+        {
+          "text": "Split Pea",
+          "points": 5
+        },
+        {
+          "text": "Tomato",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "fast_money": {
+    "target": 200,
+    "questions": [
+      {
+        "question": "Name something that's sharp",
+        "answers": [
+          {
+            "text": "Knife",
+            "points": 41
+          },
+          {
+            "text": "Razor Blade",
+            "points": 14
+          },
+          {
+            "text": "Pin",
+            "points": 11
+          },
+          {
+            "text": "Cheese",
+            "points": 5
+          },
+          {
+            "text": "Self",
+            "points": 4
+          },
+          {
+            "text": "Axe",
+            "points": 2
+          }
+        ]
+      },
+      {
+        "question": "Besides clothing, name something that has a pocket",
+        "answers": [
+          {
+            "text": "Kangaroo",
+            "points": 36
+          },
+          {
+            "text": "Purse",
+            "points": 23
+          },
+          {
+            "text": "Pool Table",
+            "points": 13
+          },
+          {
+            "text": "Bread",
+            "points": 10
+          },
+          {
+            "text": "Car Door",
+            "points": 7
+          },
+          {
+            "text": "Diaper Bag",
+            "points": 2
+          }
+        ]
+      },
+      {
+        "question": "Name something that is usually done when a person gets a makeover",
+        "answers": [
+          {
+            "text": "Hair Cut",
+            "points": 66
+          },
+          {
+            "text": "New Nose",
+            "points": 14
+          },
+          {
+            "text": "Facial",
+            "points": 6
+          },
+          {
+            "text": "Makeup",
+            "points": 5
+          },
+          {
+            "text": "Facelift",
+            "points": 4
+          },
+          {
+            "text": "Manicure",
+            "points": 2
+          }
+        ]
+      },
+      {
+        "question": "When is the first time a boy or man wears a necktie?",
+        "answers": [
+          {
+            "text": "Church",
+            "points": 42
+          },
+          {
+            "text": "Wedding",
+            "points": 16
+          },
+          {
+            "text": "Funeral",
+            "points": 9
+          },
+          {
+            "text": "Photo Session",
+            "points": 7
+          },
+          {
+            "text": "Graduation",
+            "points": 6
+          },
+          {
+            "text": "School",
+            "points": 6
+          }
+        ]
+      },
+      {
+        "question": "Name a form of transportation in New York City",
+        "answers": [
+          {
+            "text": "Subway",
+            "points": 54
+          },
+          {
+            "text": "Taxi",
+            "points": 33
+          },
+          {
+            "text": "Bus",
+            "points": 13
+          }
+        ]
+      }
+    ]
+  }
+}

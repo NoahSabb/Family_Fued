@@ -1,0 +1,251 @@
+{
+  "title": "Game 23 — Sharp Objects",
+  "rounds": [
+    {
+      "question": "Name something around the house that has blades",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Lawn Mower",
+          "points": 28
+        },
+        {
+          "text": "Razor",
+          "points": 28
+        },
+        {
+          "text": "Knives",
+          "points": 19
+        },
+        {
+          "text": "Fan",
+          "points": 9
+        },
+        {
+          "text": "Blender",
+          "points": 6
+        },
+        {
+          "text": "Mixer",
+          "points": 3
+        },
+        {
+          "text": "Scissors",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "question": "Name a famous character with \"Kid\" in his name",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Billy The Kid",
+          "points": 87
+        },
+        {
+          "text": "Karate Kid",
+          "points": 5
+        },
+        {
+          "text": "Captain Kidd",
+          "points": 2
+        },
+        {
+          "text": "Cisco Kid",
+          "points": 2
+        },
+        {
+          "text": "Sundance Kid",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Name something important that you keep in your glove compartment",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "Registration",
+          "points": 37
+        },
+        {
+          "text": "Flashlight",
+          "points": 34
+        },
+        {
+          "text": "Insurance Card",
+          "points": 11
+        },
+        {
+          "text": "Map",
+          "points": 7
+        },
+        {
+          "text": "First Aid Kit",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "question": "Name the month when you do your \"Spring Cleaning\"",
+      "multiplier": 3,
+      "answers": [
+        {
+          "text": "April",
+          "points": 48
+        },
+        {
+          "text": "March",
+          "points": 28
+        },
+        {
+          "text": "May",
+          "points": 20
+        },
+        {
+          "text": "January",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "fast_money": {
+    "target": 200,
+    "questions": [
+      {
+        "question": "Give me a word or phrase containing the word \"Bed\"",
+        "answers": [
+          {
+            "text": "Bedroom",
+            "points": 64
+          },
+          {
+            "text": "Water Bed",
+            "points": 8
+          },
+          {
+            "text": "Bedding",
+            "points": 6
+          },
+          {
+            "text": "Bedspread",
+            "points": 6
+          },
+          {
+            "text": "Bedbug",
+            "points": 4
+          },
+          {
+            "text": "Bedlam",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "question": "Name something you keep in a \"Junk Drawer\"",
+        "answers": [
+          {
+            "text": "Pencils",
+            "points": 20
+          },
+          {
+            "text": "Tools",
+            "points": 16
+          },
+          {
+            "text": "Scissors",
+            "points": 14
+          },
+          {
+            "text": "Paper Clips",
+            "points": 6
+          },
+          {
+            "text": "Coupons",
+            "points": 5
+          },
+          {
+            "text": "Rubber Bands",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "question": "Name something that would be impossible to do in the dark",
+        "answers": [
+          {
+            "text": "Read",
+            "points": 69
+          },
+          {
+            "text": "Sew",
+            "points": 14
+          },
+          {
+            "text": "Write",
+            "points": 8
+          },
+          {
+            "text": "Drive",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "question": "Name something you just can't start the day without",
+        "answers": [
+          {
+            "text": "Coffee",
+            "points": 66
+          },
+          {
+            "text": "Breakfast",
+            "points": 9
+          },
+          {
+            "text": "Shower",
+            "points": 5
+          },
+          {
+            "text": "Soda",
+            "points": 5
+          },
+          {
+            "text": "Brushing Teeth",
+            "points": 3
+          },
+          {
+            "text": "Juice",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "question": "Name a place where you've used a lot of excuses",
+        "answers": [
+          {
+            "text": "Work",
+            "points": 36
+          },
+          {
+            "text": "School",
+            "points": 17
+          },
+          {
+            "text": "Bedroom",
+            "points": 9
+          },
+          {
+            "text": "Court",
+            "points": 5
+          },
+          {
+            "text": "Doctor's Office",
+            "points": 5
+          }
+        ]
+      }
+    ]
+  }
+}

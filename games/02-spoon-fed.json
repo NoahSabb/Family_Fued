@@ -1,0 +1,251 @@
+{
+  "title": "Game 02 — Spoon Fed",
+  "rounds": [
+    {
+      "question": "Name a fruit you eat with a spoon",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Grapefruit",
+          "points": 51
+        },
+        {
+          "text": "Cantaloupe",
+          "points": 21
+        },
+        {
+          "text": "Strawberries",
+          "points": 11
+        },
+        {
+          "text": "Peaches",
+          "points": 7
+        },
+        {
+          "text": "Blueberries",
+          "points": 3
+        },
+        {
+          "text": "Blackberries",
+          "points": 2
+        },
+        {
+          "text": "Prunes",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Name someone that people have to hire if they decide to build a house",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Contractor",
+          "points": 40
+        },
+        {
+          "text": "Carpenter",
+          "points": 22
+        },
+        {
+          "text": "Architect",
+          "points": 16
+        },
+        {
+          "text": "Electrician",
+          "points": 14
+        },
+        {
+          "text": "Plumber",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "question": "Name someone who you would expect to see hanging around with snoopy",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "Charlie Brown",
+          "points": 63
+        },
+        {
+          "text": "Woodstock",
+          "points": 28
+        },
+        {
+          "text": "Linus",
+          "points": 5
+        },
+        {
+          "text": "Lucy",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "question": "Name something most people do at the same time every day of their lives",
+      "multiplier": 3,
+      "answers": [
+        {
+          "text": "Eat",
+          "points": 43
+        },
+        {
+          "text": "Go To Bed",
+          "points": 20
+        },
+        {
+          "text": "Work",
+          "points": 20
+        },
+        {
+          "text": "Wake Up",
+          "points": 9
+        },
+        {
+          "text": "Watch TV",
+          "points": 5
+        }
+      ]
+    }
+  ],
+  "fast_money": {
+    "target": 200,
+    "questions": [
+      {
+        "question": "Name a room or area of your home that's overflowing with junk",
+        "answers": [
+          {
+            "text": "Garage",
+            "points": 16
+          },
+          {
+            "text": "Bedroom",
+            "points": 15
+          },
+          {
+            "text": "Closet",
+            "points": 15
+          },
+          {
+            "text": "Kitchen",
+            "points": 13
+          },
+          {
+            "text": "Basement",
+            "points": 12
+          },
+          {
+            "text": "Family Room",
+            "points": 11
+          }
+        ]
+      },
+      {
+        "question": "Name the age when men's physiques start to go",
+        "answers": [
+          {
+            "text": "40",
+            "points": 27
+          },
+          {
+            "text": "35",
+            "points": 25
+          },
+          {
+            "text": "30",
+            "points": 14
+          },
+          {
+            "text": "50",
+            "points": 7
+          },
+          {
+            "text": "45",
+            "points": 6
+          },
+          {
+            "text": "55",
+            "points": 6
+          }
+        ]
+      },
+      {
+        "question": "Name a game that's hard to learn",
+        "answers": [
+          {
+            "text": "Chess",
+            "points": 35
+          },
+          {
+            "text": "Bridge",
+            "points": 29
+          },
+          {
+            "text": "Backgammon",
+            "points": 14
+          },
+          {
+            "text": "Monopoly",
+            "points": 5
+          },
+          {
+            "text": "Pinochle",
+            "points": 4
+          },
+          {
+            "text": "Football",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "question": "Name something you serve with cake",
+        "answers": [
+          {
+            "text": "Ice Cream",
+            "points": 54
+          },
+          {
+            "text": "Coffee",
+            "points": 32
+          },
+          {
+            "text": "Milk",
+            "points": 12
+          }
+        ]
+      },
+      {
+        "question": "Name something found on a kitchen counter",
+        "answers": [
+          {
+            "text": "Toaster",
+            "points": 25
+          },
+          {
+            "text": "Canister",
+            "points": 13
+          },
+          {
+            "text": "Can Opener",
+            "points": 13
+          },
+          {
+            "text": "Salt",
+            "points": 11
+          },
+          {
+            "text": "Dishes",
+            "points": 6
+          },
+          {
+            "text": "Coffee Pot",
+            "points": 4
+          }
+        ]
+      }
+    ]
+  }
+}

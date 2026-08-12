@@ -1,0 +1,231 @@
+{
+  "title": "Game 25 — Due Dates",
+  "rounds": [
+    {
+      "question": "If you're short of money, what's the one bill you're sure to pay?",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Rent",
+          "points": 63
+        },
+        {
+          "text": "Electric",
+          "points": 20
+        },
+        {
+          "text": "Telephone",
+          "points": 6
+        },
+        {
+          "text": "Heat",
+          "points": 4
+        },
+        {
+          "text": "Auto Insurance",
+          "points": 2
+        },
+        {
+          "text": "Car Payment",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Tell me a noise that would make you call the police",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Gunshot",
+          "points": 48
+        },
+        {
+          "text": "Breaking Glass",
+          "points": 21
+        },
+        {
+          "text": "Scream",
+          "points": 19
+        },
+        {
+          "text": "Car Crash",
+          "points": 6
+        },
+        {
+          "text": "Explosion",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "question": "Name a family expense that increases with each child",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "Food",
+          "points": 74
+        },
+        {
+          "text": "Clothes",
+          "points": 14
+        },
+        {
+          "text": "Education",
+          "points": 6
+        },
+        {
+          "text": "Medical",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "question": "Name a way of preparing foods that is healthier than frying",
+      "multiplier": 3,
+      "answers": [
+        {
+          "text": "Broiling",
+          "points": 58
+        },
+        {
+          "text": "Baking",
+          "points": 21
+        },
+        {
+          "text": "Steaming",
+          "points": 18
+        },
+        {
+          "text": "Boiling",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "fast_money": {
+    "target": 200,
+    "questions": [
+      {
+        "question": "Name a dried fruit",
+        "answers": [
+          {
+            "text": "Prunes",
+            "points": 52
+          },
+          {
+            "text": "Raisins",
+            "points": 34
+          },
+          {
+            "text": "Apricots",
+            "points": 8
+          },
+          {
+            "text": "Figs",
+            "points": 3
+          },
+          {
+            "text": "Apples",
+            "points": 2
+          }
+        ]
+      },
+      {
+        "question": "As you drive around, what kind of crossing signs might you see?",
+        "answers": [
+          {
+            "text": "Railroad",
+            "points": 68
+          },
+          {
+            "text": "School",
+            "points": 14
+          },
+          {
+            "text": "Pedestrian",
+            "points": 7
+          },
+          {
+            "text": "Deer",
+            "points": 7
+          }
+        ]
+      },
+      {
+        "question": "Name a club adults join",
+        "answers": [
+          {
+            "text": "Health",
+            "points": 37
+          },
+          {
+            "text": "Golf",
+            "points": 14
+          },
+          {
+            "text": "Elks",
+            "points": 12
+          },
+          {
+            "text": "Club Med",
+            "points": 4
+          },
+          {
+            "text": "AARP",
+            "points": 3
+          },
+          {
+            "text": "Moose",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "question": "Name a place where people wear white",
+        "answers": [
+          {
+            "text": "Hospital",
+            "points": 54
+          },
+          {
+            "text": "Wedding",
+            "points": 38
+          },
+          {
+            "text": "Tennis Court",
+            "points": 6
+          }
+        ]
+      },
+      {
+        "question": "What one thing makes your house a home?",
+        "answers": [
+          {
+            "text": "Love",
+            "points": 43
+          },
+          {
+            "text": "Family",
+            "points": 32
+          },
+          {
+            "text": "Furniture",
+            "points": 7
+          },
+          {
+            "text": "Pet",
+            "points": 5
+          },
+          {
+            "text": "Pictures",
+            "points": 2
+          },
+          {
+            "text": "TV",
+            "points": 2
+          }
+        ]
+      }
+    ]
+  }
+}

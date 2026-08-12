@@ -1,0 +1,251 @@
+{
+  "title": "Game 10 — Crunch Time",
+  "rounds": [
+    {
+      "question": "Name a crunchy food",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Chips",
+          "points": 41
+        },
+        {
+          "text": "Celery",
+          "points": 15
+        },
+        {
+          "text": "Carrots",
+          "points": 11
+        },
+        {
+          "text": "Cereal",
+          "points": 10
+        },
+        {
+          "text": "Popcorn",
+          "points": 5
+        },
+        {
+          "text": "Apples",
+          "points": 4
+        },
+        {
+          "text": "Nuts",
+          "points": 3
+        },
+        {
+          "text": "Crackers",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "What's the first expensive thing you ever bought with your own money?",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Car",
+          "points": 66
+        },
+        {
+          "text": "Clothes",
+          "points": 10
+        },
+        {
+          "text": "Jewelry",
+          "points": 8
+        },
+        {
+          "text": "Stereo",
+          "points": 3
+        },
+        {
+          "text": "TV",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Name something people use to remove something stuck between their teeth",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "Toothpick",
+          "points": 75
+        },
+        {
+          "text": "Dental Floss",
+          "points": 13
+        },
+        {
+          "text": "Fingernail",
+          "points": 6
+        },
+        {
+          "text": "Matchbook",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "question": "Name something you'd find in a barn",
+      "multiplier": 3,
+      "answers": [
+        {
+          "text": "Hay",
+          "points": 62
+        },
+        {
+          "text": "Cow",
+          "points": 19
+        },
+        {
+          "text": "Horse",
+          "points": 7
+        },
+        {
+          "text": "Corn",
+          "points": 2
+        },
+        {
+          "text": "Tractor",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "fast_money": {
+    "target": 200,
+    "questions": [
+      {
+        "question": "Name a holiday that ends in the word \"day\"",
+        "answers": [
+          {
+            "text": "Labor Day",
+            "points": 25
+          },
+          {
+            "text": "Memorial Day",
+            "points": 12
+          },
+          {
+            "text": "New Year's Day",
+            "points": 11
+          },
+          {
+            "text": "Valentine's Day",
+            "points": 10
+          },
+          {
+            "text": "Mother's Day",
+            "points": 7
+          },
+          {
+            "text": "Columbus Day",
+            "points": 6
+          }
+        ]
+      },
+      {
+        "question": "Name something you should keep away from children",
+        "answers": [
+          {
+            "text": "Matches",
+            "points": 39
+          },
+          {
+            "text": "Medicine",
+            "points": 32
+          },
+          {
+            "text": "Poison",
+            "points": 10
+          },
+          {
+            "text": "Cleaning Supplies",
+            "points": 7
+          },
+          {
+            "text": "Guns",
+            "points": 5
+          },
+          {
+            "text": "Plastic Bags",
+            "points": 4
+          }
+        ]
+      },
+      {
+        "question": "Name a souvenir people bring back from Hawaii",
+        "answers": [
+          {
+            "text": "Leis",
+            "points": 49
+          },
+          {
+            "text": "Shirt",
+            "points": 14
+          },
+          {
+            "text": "Pineapple",
+            "points": 10
+          },
+          {
+            "text": "Grass Skirt",
+            "points": 7
+          },
+          {
+            "text": "Macadamia Nuts",
+            "points": 7
+          },
+          {
+            "text": "Shells",
+            "points": 6
+          }
+        ]
+      },
+      {
+        "question": "Tell me how long, in minutes, a cup of coffee stays hot",
+        "answers": [
+          {
+            "text": "10",
+            "points": 38
+          },
+          {
+            "text": "15",
+            "points": 13
+          },
+          {
+            "text": "20",
+            "points": 8
+          },
+          {
+            "text": "30",
+            "points": 2
+          }
+        ]
+      },
+      {
+        "question": "Name a kind of stew",
+        "answers": [
+          {
+            "text": "Beef",
+            "points": 48
+          },
+          {
+            "text": "Irish",
+            "points": 36
+          },
+          {
+            "text": "Mulligan",
+            "points": 8
+          },
+          {
+            "text": "Hobo",
+            "points": 2
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "title": "Game 06 — Scary Sounds",
+  "rounds": [
+    {
+      "question": "Name a sound that has always frightened you",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Thunder",
+          "points": 37
+        },
+        {
+          "text": "Siren",
+          "points": 16
+        },
+        {
+          "text": "Gunshot",
+          "points": 7
+        },
+        {
+          "text": "Scream",
+          "points": 7
+        },
+        {
+          "text": "Howl",
+          "points": 5
+        },
+        {
+          "text": "Tire Screech",
+          "points": 4
+        },
+        {
+          "text": "Dentist Drill",
+          "points": 3
+        },
+        {
+          "text": "Car Backfire",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "question": "Name something you buy that comes in different patterns",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Clothes",
+          "points": 26
+        },
+        {
+          "text": "Wallpaper",
+          "points": 18
+        },
+        {
+          "text": "Dishes",
+          "points": 17
+        },
+        {
+          "text": "Fabric",
+          "points": 15
+        },
+        {
+          "text": "Sheets",
+          "points": 5
+        },
+        {
+          "text": "Carpet",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "question": "Name something that spins around",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "Top",
+          "points": 75
+        },
+        {
+          "text": "The Earth",
+          "points": 5
+        },
+        {
+          "text": "Merry Go Round",
+          "points": 4
+        },
+        {
+          "text": "Wheel",
+          "points": 3
+        },
+        {
+          "text": "Fan",
+          "points": 2
+        },
+        {
+          "text": "Windmill",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Name a sport where you use a paddle",
+      "multiplier": 3,
+      "answers": [
+        {
+          "text": "Ping Pong",
+          "points": 53
+        },
+        {
+          "text": "Canoeing",
+          "points": 25
+        },
+        {
+          "text": "Rowing",
+          "points": 16
+        },
+        {
+          "text": "Paddle Ball",
+          "points": 3
+        }
+      ]
+    }
+  ],
+  "fast_money": {
+    "target": 200,
+    "questions": [
+      {
+        "question": "Name a compartment in a refrigerator",
+        "answers": [
+          {
+            "text": "Butter",
+            "points": 47
+          },
+          {
+            "text": "Eggs",
+            "points": 19
+          },
+          {
+            "text": "Meat",
+            "points": 16
+          },
+          {
+            "text": "Vegetables",
+            "points": 9
+          },
+          {
+            "text": "Ice",
+            "points": 4
+          },
+          {
+            "text": "Cheese",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "question": "Besides doors and windows, name something people open",
+        "answers": [
+          {
+            "text": "Mail",
+            "points": 20
+          },
+          {
+            "text": "Cans",
+            "points": 17
+          },
+          {
+            "text": "Drawers",
+            "points": 9
+          },
+          {
+            "text": "Mouth",
+            "points": 9
+          },
+          {
+            "text": "Refrigerator",
+            "points": 9
+          },
+          {
+            "text": "Jar",
+            "points": 7
+          }
+        ]
+      },
+      {
+        "question": "Name a specific activity for which people buy special sneakers",
+        "answers": [
+          {
+            "text": "Jogging",
+            "points": 50
+          },
+          {
+            "text": "Basketball",
+            "points": 24
+          },
+          {
+            "text": "Tennis",
+            "points": 15
+          },
+          {
+            "text": "Aerobics",
+            "points": 3
+          },
+          {
+            "text": "Walking",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "question": "Name the age when a boy's voice changes",
+        "answers": [
+          {
+            "text": "13",
+            "points": 36
+          },
+          {
+            "text": "14",
+            "points": 29
+          },
+          {
+            "text": "12",
+            "points": 19
+          },
+          {
+            "text": "15",
+            "points": 12
+          },
+          {
+            "text": "16",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "question": "When you're having problems with your spouse, who do you tell?",
+        "answers": [
+          {
+            "text": "Friend",
+            "points": 59
+          },
+          {
+            "text": "Sibling",
+            "points": 13
+          },
+          {
+            "text": "Spouse",
+            "points": 9
+          },
+          {
+            "text": "Parent",
+            "points": 8
+          },
+          {
+            "text": "Nobody",
+            "points": 7
+          }
+        ]
+      }
+    ]
+  }
+}

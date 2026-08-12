@@ -1,0 +1,247 @@
+{
+  "title": "Game 09 — Holy Titles",
+  "rounds": [
+    {
+      "question": "Give me another name for clergyman",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Minister",
+          "points": 28
+        },
+        {
+          "text": "Pastor",
+          "points": 25
+        },
+        {
+          "text": "Preacher",
+          "points": 20
+        },
+        {
+          "text": "Priest",
+          "points": 19
+        },
+        {
+          "text": "Father",
+          "points": 3
+        },
+        {
+          "text": "Padre",
+          "points": 3
+        },
+        {
+          "text": "Rabbi",
+          "points": 1
+        },
+        {
+          "text": "Reverend",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "question": "Name something that people \"Pull up\"",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Pants",
+          "points": 46
+        },
+        {
+          "text": "Socks",
+          "points": 19
+        },
+        {
+          "text": "Weeds",
+          "points": 16
+        },
+        {
+          "text": "Pantyhose",
+          "points": 4
+        },
+        {
+          "text": "Shades",
+          "points": 4
+        },
+        {
+          "text": "Covers",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Name something people grow fields of",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "Corn",
+          "points": 56
+        },
+        {
+          "text": "Wheat",
+          "points": 22
+        },
+        {
+          "text": "Cotton",
+          "points": 8
+        },
+        {
+          "text": "Flowers",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "question": "Name something that comes in flakes",
+      "multiplier": 3,
+      "answers": [
+        {
+          "text": "Cereal",
+          "points": 47
+        },
+        {
+          "text": "Snow",
+          "points": 46
+        },
+        {
+          "text": "Soap",
+          "points": 4
+        },
+        {
+          "text": "Dandruff",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "fast_money": {
+    "target": 200,
+    "questions": [
+      {
+        "question": "Name a card game played by kids",
+        "answers": [
+          {
+            "text": "Go Fish",
+            "points": 41
+          },
+          {
+            "text": "Old Maid",
+            "points": 34
+          },
+          {
+            "text": "Crazy Eights",
+            "points": 7
+          },
+          {
+            "text": "War",
+            "points": 6
+          },
+          {
+            "text": "Gin Rummy",
+            "points": 4
+          },
+          {
+            "text": "Uno",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "question": "Name a part of the body you scratch",
+        "answers": [
+          {
+            "text": "Head",
+            "points": 43
+          },
+          {
+            "text": "Back",
+            "points": 30
+          },
+          {
+            "text": "Arm",
+            "points": 12
+          },
+          {
+            "text": "Nose",
+            "points": 5
+          },
+          {
+            "text": "Ear",
+            "points": 3
+          },
+          {
+            "text": "Face",
+            "points": 2
+          }
+        ]
+      },
+      {
+        "question": "When something goes wrong with your car, who do you call first?",
+        "answers": [
+          {
+            "text": "Spouse",
+            "points": 60
+          },
+          {
+            "text": "Garage",
+            "points": 15
+          },
+          {
+            "text": "Father",
+            "points": 8
+          },
+          {
+            "text": "Friend",
+            "points": 7
+          },
+          {
+            "text": "AAA",
+            "points": 6
+          }
+        ]
+      },
+      {
+        "question": "Name something that sounds like gunshots",
+        "answers": [
+          {
+            "text": "Firecracker",
+            "points": 42
+          },
+          {
+            "text": "Backfire",
+            "points": 40
+          },
+          {
+            "text": "Tire Blowout",
+            "points": 6
+          },
+          {
+            "text": "Balloon Bursting",
+            "points": 2
+          }
+        ]
+      },
+      {
+        "question": "Name something that a rich man might install in his bathroom",
+        "answers": [
+          {
+            "text": "Whirlpool",
+            "points": 36
+          },
+          {
+            "text": "Telephone",
+            "points": 22
+          },
+          {
+            "text": "TV",
+            "points": 19
+          },
+          {
+            "text": "Sauna",
+            "points": 12
+          }
+        ]
+      }
+    ]
+  }
+}

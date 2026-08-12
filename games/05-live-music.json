@@ -1,0 +1,231 @@
+{
+  "title": "Game 05 — Live Music",
+  "rounds": [
+    {
+      "question": "Name a place where you often see a band performing",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Parade",
+          "points": 35
+        },
+        {
+          "text": "Nightclub",
+          "points": 21
+        },
+        {
+          "text": "Sporting Event",
+          "points": 12
+        },
+        {
+          "text": "Park",
+          "points": 11
+        },
+        {
+          "text": "Wedding",
+          "points": 6
+        },
+        {
+          "text": "Fair",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "question": "Name something that might have powdered sugar on it",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Donut",
+          "points": 67
+        },
+        {
+          "text": "French Toast",
+          "points": 9
+        },
+        {
+          "text": "Cookie",
+          "points": 7
+        },
+        {
+          "text": "Cake",
+          "points": 6
+        },
+        {
+          "text": "Brownies",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "question": "Name something you buy that you save the receipt from, just in case",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "Clothes",
+          "points": 52
+        },
+        {
+          "text": "Appliances",
+          "points": 27
+        },
+        {
+          "text": "Gift",
+          "points": 7
+        },
+        {
+          "text": "Shoes",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "question": "Name an animal that people ride",
+      "multiplier": 3,
+      "answers": [
+        {
+          "text": "Horse",
+          "points": 83
+        },
+        {
+          "text": "Camel",
+          "points": 7
+        },
+        {
+          "text": "Elephant",
+          "points": 4
+        },
+        {
+          "text": "Donkey",
+          "points": 3
+        }
+      ]
+    }
+  ],
+  "fast_money": {
+    "target": 200,
+    "questions": [
+      {
+        "question": "Name a subject that people talk about when they make \"Small talk\"",
+        "answers": [
+          {
+            "text": "Weather",
+            "points": 70
+          },
+          {
+            "text": "Family",
+            "points": 13
+          },
+          {
+            "text": "Jobs",
+            "points": 5
+          },
+          {
+            "text": "Politics",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "question": "Name something kids use up without throwing away the container",
+        "answers": [
+          {
+            "text": "Milk",
+            "points": 38
+          },
+          {
+            "text": "Toothpaste",
+            "points": 20
+          },
+          {
+            "text": "Cereal",
+            "points": 14
+          },
+          {
+            "text": "Toilet Paper",
+            "points": 7
+          },
+          {
+            "text": "Juice",
+            "points": 3
+          },
+          {
+            "text": "Tissues",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "question": "Name a kind of place where you see lighted \"Exit\" signs",
+        "answers": [
+          {
+            "text": "Theater",
+            "points": 84
+          },
+          {
+            "text": "Restaurant",
+            "points": 4
+          },
+          {
+            "text": "School",
+            "points": 4
+          },
+          {
+            "text": "Hospital",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "question": "Other than Las Vegas, name a city known for gambling",
+        "answers": [
+          {
+            "text": "Reno",
+            "points": 42
+          },
+          {
+            "text": "Atlantic City",
+            "points": 31
+          },
+          {
+            "text": "Monte Carlo",
+            "points": 19
+          },
+          {
+            "text": "Lake Tahoe",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "question": "Name an animal some people sound like when they laugh",
+        "answers": [
+          {
+            "text": "Hyena",
+            "points": 36
+          },
+          {
+            "text": "Donkey",
+            "points": 17
+          },
+          {
+            "text": "Horse",
+            "points": 14
+          },
+          {
+            "text": "Pig",
+            "points": 10
+          },
+          {
+            "text": "Monkey",
+            "points": 8
+          },
+          {
+            "text": "Seal",
+            "points": 5
+          }
+        ]
+      }
+    ]
+  }
+}

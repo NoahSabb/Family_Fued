@@ -41,3 +41,109 @@ Running log of decisions, harvests, and things to double-check. Newest notes at 
 - Its Next.js/React/Go/WebSocket infrastructure was deliberately left behind (spec: 100%
   offline, no build step).
 - Harvested its distinct SFX: good-answer, duplicate, fm-answer-reveal.
+
+## Architecture decisions
+
+- **Base**: rebuilt clean on the MacEvelly board look (blue gradients restored from
+  the timlohnes CSS). Flip animation re-implemented with CSS 3D transforms, so the
+  app has zero JS dependencies (no jQuery/TweenMax).
+- **Two views**: `index.html` (host panel — sees everything, controls everything)
+  opens `audience.html` via `window.open`. Sync is one-way `postMessage` state
+  snapshots plus fx events (sound cues / strike overlay / banners), with
+  `BroadcastChannel` as a redundant path. The audience window is a pure renderer:
+  it never decides anything.
+- **Deterministic audio**: every stage transition fires its cue automatically
+  (see `js/sounds.js` cue map). Sounds play on the audience window once it has been
+  clicked (browser autoplay rules require one gesture); until then they fall back to
+  the host laptop. Host never picks a sound manually — only a Sound Check panel for
+  pre-show testing.
+- **All game logic manual**: reveals, strikes, face-off winner, play/pass, steal
+  outcome, bank awards, score edits, winner declaration — all host buttons. The app
+  only automates presentation + audio, plus two purely-presentational conveniences:
+  3rd strike advances to the Steal stage, and a cleared board advances to Round Over
+  (awarding is still manual).
+- **Scoring**: bank = sum of revealed answers × round multiplier (rounds are
+  1×/1×/2×/3×). Steal SUCCEEDED awards the bank to the non-controlling team,
+  FAILED to the controlling team. Scores are directly editable on the host panel.
+- **Fast Money**: team + 2 players chosen by host; 20s/25s clocks with ticking
+  sound and on-screen countdown; host records answers by clicking the survey answer
+  list (or typing free text + points); duplicate detection buzzes automatically and
+  asks for another answer; big reveal is answer-then-points per cell with
+  ding/buzzer, win sound at 200+.
+- **Games format**: pure JSON per spec (`games/*.json` + `manifest.json`). Browsers
+  block `fetch` of local JSON from `file://` pages, so the README documents the
+  one-command server (`python3 -m http.server`) and `start.command` double-click
+  launcher; a file-picker "Load a game file" button works even on `file://` with no
+  server. Missing point values are auto-generated with the ported Friendly-Feud
+  point logic.
+- **Font**: Anton (SIL OFL, bundled locally at `assets/fonts/anton.woff2`) — closest
+  freely-licensed match to the show's bold condensed all-caps style.
+- **Preview hook**: `audience.html#state=<base64 JSON>` renders any state statically
+  (used for the build's screenshot smoke tests; harmless to keep).
+
+## Sound mapping — judgment calls to double-check by ear
+
+All 11 cues are real harvested sounds (no placeholders). Mappings I'd sanity-check:
+- `survey-says.wav` ← timlohnes `ff-bankroll.wav` (used as the "bank awarded" sting).
+- `face-off.mp3` ← timlohnes `dun.mp3` (dramatic sting; used at each face-off).
+- `round-transition.mp3` ← timlohnes `bonus.mp3`.
+If any feels wrong, drop a replacement file with the same name into `sounds/` — no
+code changes needed. Unused-but-available extras in the reference repo: `boo.ogg`,
+`yeah.ogg`, `beep.ogg`, `ff_dogru.mp3`, Friendly-Feud `try-again.mp3` / `buzzer.wav` /
+`title.mp3`.
+
+## Verification done
+
+- `node --check` passes on all JS; DOM id/class cross-check host↔audience passes.
+- Headless-Chrome screenshots verified: host panel (setup), audience splash,
+  mid-round board (2 revealed answers, strikes, control glow, bank), Fast Money
+  reveal board with timer + total. All render correctly.
+- All game JSON validated programmatically (shape, multipliers, descending points).
+
+## Game library (games/)
+
+- **Source decision**: the timlohnes repo ships 1,977 real English survey questions
+  with authentic point values (`js/FF3.json`) — far better raw material than fresh
+  web research, so the library was built from it instead of scraping question sites.
+- Pipeline: quality gates (3–8 usable answers, top answer ≥15 pts, sane totals,
+  clean text) left 1,932 candidates → deterministically sampled into **28 games**,
+  each 4 rounds (multipliers 1,1,2,3; bigger boards in early rounds) + 5 fast-money
+  questions, **no question used twice** across the library (252 unique questions).
+- A curation pass then reviewed every question: **19 replaced** (7 too adult/awkward
+  for a family dinner, 12 badly dated or US-celebrity-specific), **16 typo fixes**
+  (wording only — answers and points untouched), and every game hand-retitled
+  (e.g. "Game 18 — Fridge Raiders").
+- Validated twice (curation pass + independent script): JSON shape, multipliers,
+  descending integer points, manifest ↔ files exact match.
+
+## Things the user should double-check
+
+1. **Sound mappings by ear** (see the sound-mapping section above) — especially
+   `survey-says.wav` and `face-off.mp3`, which are judgment calls.
+2. **Survey data is from the reference repo** (1970s–90s US show era). The obviously
+   dated items were swapped out, but expect the occasional retro flavor — part of the
+   charm, easy to edit in any text editor.
+3. **The theme sound** (`sounds/theme.mp3`, from the reference repo) is ~28s and, like
+   all harvested audio, is for private home use only — fine for family dinners, but
+   don't redistribute/publish this repo with the sounds included.
+4. First run: macOS may require right-click → Open on `start.command`.
+
+## Deliverables checklist (from the spec)
+
+- [x] Runnable offline app: host panel + audience board on the MacEvelly-style board
+- [x] Deterministic stage-based audio; every game decision manual
+- [x] Full show: face-off, play/pass, rounds, strikes, steals, multipliers, fast money, reset
+- [x] Dynamic host-entered team names on the scoreboard
+- [x] sounds/ — 11 cues, all real harvested audio, all swappable by filename
+- [x] games/ — 28 complete curated games + manifest
+- [x] README.md — run/offline instructions, two-screen setup, game format, sound guide, game list
+- [x] BUILD-NOTES.md — this file
+- [x] No commits, no pushes — working tree left entirely for review
+
+## Note on git state
+
+Per the spec I ran **zero** git commands (no add/commit/push). During the build,
+two commits authored as NoahSabb appeared in the repo ("Create feud-build-spec.md",
+then "Sounds" at 18:27 covering sounds/ + the early BUILD-NOTES.md + the font) —
+presumably you or an auto-commit tool. I left them untouched; everything newer is
+sitting uncommitted in the working tree for your review.

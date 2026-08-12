@@ -1,0 +1,275 @@
+{
+  "title": "Game 19 — Coloring Book",
+  "rounds": [
+    {
+      "question": "Name an animal in children's coloring books",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Dog",
+          "points": 41
+        },
+        {
+          "text": "Bear",
+          "points": 21
+        },
+        {
+          "text": "Elephant",
+          "points": 10
+        },
+        {
+          "text": "Cat",
+          "points": 8
+        },
+        {
+          "text": "Horse",
+          "points": 6
+        },
+        {
+          "text": "Lion",
+          "points": 4
+        },
+        {
+          "text": "Giraffe",
+          "points": 2
+        },
+        {
+          "text": "Mouse",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Name something little girls pretend to be",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Mommies",
+          "points": 51
+        },
+        {
+          "text": "Princesses",
+          "points": 13
+        },
+        {
+          "text": "Nurses",
+          "points": 11
+        },
+        {
+          "text": "Teachers",
+          "points": 8
+        },
+        {
+          "text": "Brides",
+          "points": 7
+        },
+        {
+          "text": "Actresses",
+          "points": 4
+        },
+        {
+          "text": "Ballerinas",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "question": "What one thing makes your job worthwhile?",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "Money",
+          "points": 65
+        },
+        {
+          "text": "People",
+          "points": 8
+        },
+        {
+          "text": "Benefits",
+          "points": 4
+        },
+        {
+          "text": "Boss",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "question": "Name an animal that likes to poke around in your garbage late at night",
+      "multiplier": 3,
+      "answers": [
+        {
+          "text": "Raccoon",
+          "points": 38
+        },
+        {
+          "text": "Dog",
+          "points": 23
+        },
+        {
+          "text": "Cat",
+          "points": 19
+        },
+        {
+          "text": "Possum",
+          "points": 11
+        },
+        {
+          "text": "Skunk",
+          "points": 5
+        }
+      ]
+    }
+  ],
+  "fast_money": {
+    "target": 200,
+    "questions": [
+      {
+        "question": "Name something that people get wiser about as they get older",
+        "answers": [
+          {
+            "text": "Money",
+            "points": 57
+          },
+          {
+            "text": "Love",
+            "points": 9
+          },
+          {
+            "text": "Life",
+            "points": 8
+          },
+          {
+            "text": "People",
+            "points": 7
+          },
+          {
+            "text": "Health",
+            "points": 5
+          },
+          {
+            "text": "Children",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "question": "Name a phrase that has the word \"United\" in it",
+        "answers": [
+          {
+            "text": "United States",
+            "points": 51
+          },
+          {
+            "text": "United We Stand",
+            "points": 31
+          },
+          {
+            "text": "United In Marriage",
+            "points": 4
+          },
+          {
+            "text": "United Nations",
+            "points": 4
+          },
+          {
+            "text": "United Way",
+            "points": 4
+          },
+          {
+            "text": "United Airlines",
+            "points": 2
+          }
+        ]
+      },
+      {
+        "question": "Name something that is salty",
+        "answers": [
+          {
+            "text": "Ocean",
+            "points": 31
+          },
+          {
+            "text": "Pretzels",
+            "points": 11
+          },
+          {
+            "text": "Nuts",
+            "points": 9
+          },
+          {
+            "text": "Anchovies",
+            "points": 7
+          },
+          {
+            "text": "Fish",
+            "points": 5
+          },
+          {
+            "text": "Ham",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "question": "Name something associated with Scotland",
+        "answers": [
+          {
+            "text": "Kilts",
+            "points": 39
+          },
+          {
+            "text": "Bagpipes",
+            "points": 29
+          },
+          {
+            "text": "Plaid",
+            "points": 11
+          },
+          {
+            "text": "Loch Ness Monster",
+            "points": 5
+          },
+          {
+            "text": "Whiskey",
+            "points": 4
+          },
+          {
+            "text": "Golf",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "question": "Name something to which your skin might be overly sensitive",
+        "answers": [
+          {
+            "text": "Sun",
+            "points": 58
+          },
+          {
+            "text": "Soap",
+            "points": 15
+          },
+          {
+            "text": "Makeup",
+            "points": 7
+          },
+          {
+            "text": "Perfume",
+            "points": 3
+          },
+          {
+            "text": "Wool",
+            "points": 3
+          },
+          {
+            "text": "Razor",
+            "points": 2
+          }
+        ]
+      }
+    ]
+  }
+}

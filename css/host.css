@@ -1,0 +1,201 @@
+/* Host control panel — clarity over glamour. Big labeled buttons, obvious
+ * current stage, nothing the host can misclick into a spoiler. */
+
+@font-face {
+  font-family: 'Anton';
+  src: url('../assets/fonts/anton.woff2') format('woff2');
+}
+
+:root {
+  --bg: #10182b;
+  --panel: #1a2540;
+  --panel-2: #223055;
+  --line: #35477a;
+  --text: #e8eefc;
+  --dim: #93a5cf;
+  --gold: #ffd764;
+  --green: #2ecc71;
+  --red: #e74c3c;
+  --blue: #3498db;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 18px;
+  background: var(--panel);
+  border-bottom: 2px solid var(--line);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  flex-wrap: wrap;
+}
+header .brand {
+  font-family: 'Anton', sans-serif;
+  font-size: 22px;
+  color: var(--gold);
+  letter-spacing: 0.04em;
+}
+#stage-indicator {
+  font-family: 'Anton', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  background: var(--panel-2);
+  border: 2px solid var(--gold);
+  border-radius: 8px;
+  padding: 6px 16px;
+  text-transform: uppercase;
+}
+#audience-status { color: var(--dim); font-size: 13px; }
+#audience-status.ok { color: var(--green); }
+
+main {
+  display: grid;
+  grid-template-columns: 340px 1fr 300px;
+  gap: 14px;
+  padding: 14px;
+  align-items: start;
+}
+@media (max-width: 1100px) { main { grid-template-columns: 1fr 1fr; } }
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 14px;
+}
+.panel h2 {
+  margin: 0 0 10px;
+  font-family: 'Anton', sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.08em;
+  color: var(--gold);
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 6px;
+}
+.panel .sub { color: var(--dim); font-size: 13px; margin: 6px 0; }
+
+button {
+  font: inherit;
+  font-weight: 600;
+  color: #fff;
+  background: var(--panel-2);
+  border: 2px solid var(--line);
+  border-radius: 8px;
+  padding: 10px 14px;
+  cursor: pointer;
+  transition: filter 0.1s, transform 0.05s;
+}
+button:hover:not(:disabled) { filter: brightness(1.25); }
+button:active:not(:disabled) { transform: scale(0.98); }
+button:disabled { opacity: 0.35; cursor: not-allowed; }
+button.primary { background: #1d6fb8; border-color: #3498db; }
+button.good { background: #1e7e45; border-color: var(--green); }
+button.bad { background: #952f23; border-color: var(--red); }
+button.gold { background: #8a6d1c; border-color: var(--gold); }
+button.big { font-size: 17px; padding: 14px 18px; width: 100%; }
+button.wide { width: 100%; }
+
+.btn-row { display: flex; gap: 8px; margin: 6px 0; flex-wrap: wrap; }
+.btn-row button { flex: 1 1 auto; }
+
+input[type="text"], input[type="number"], select {
+  font: inherit;
+  color: var(--text);
+  background: #0d1424;
+  border: 2px solid var(--line);
+  border-radius: 8px;
+  padding: 9px 10px;
+  width: 100%;
+}
+label { display: block; font-size: 13px; color: var(--dim); margin: 8px 0 4px; }
+
+/* Stage flow area */
+#stage-controls .stage-block { display: none; }
+#stage-controls .stage-block.active { display: block; }
+.hint { background: #0d1424; border-left: 3px solid var(--gold); padding: 8px 10px; border-radius: 6px; color: var(--dim); font-size: 13px; margin: 8px 0; }
+
+/* Question + answers grid (host always sees everything) */
+#host-question {
+  font-size: 19px;
+  font-weight: 700;
+  background: #0d1424;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 10px;
+  min-height: 48px;
+}
+#answers-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.ans-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  text-align: left;
+  padding: 12px;
+  font-size: 15px;
+}
+.ans-btn .apts {
+  font-family: 'Anton', sans-serif;
+  font-size: 18px;
+  color: var(--gold);
+  flex: 0 0 auto;
+}
+.ans-btn.revealed { background: #1e7e45; border-color: var(--green); opacity: 0.75; }
+.ans-btn .anum { color: var(--dim); margin-right: 6px; }
+
+/* Scores panel */
+.team-box {
+  background: var(--panel-2);
+  border: 2px solid var(--line);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.team-box.control { border-color: var(--gold); box-shadow: 0 0 10px rgba(255, 215, 100, 0.35); }
+.team-box .tname { font-weight: 700; font-size: 16px; }
+.team-box .tscore-row { display: flex; align-items: center; gap: 8px; margin-top: 6px; }
+.team-box .tscore-row input { width: 90px; text-align: center; font-size: 18px; }
+.team-box .strikes { color: var(--red); font-family: 'Anton', sans-serif; font-size: 20px; letter-spacing: 0.3em; min-height: 24px; }
+#bank-line {
+  font-family: 'Anton', sans-serif;
+  font-size: 22px;
+  color: var(--gold);
+  text-align: center;
+  background: #0d1424;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Fast money host grid */
+.fm-q { background: var(--panel-2); border-radius: 8px; padding: 10px; margin-bottom: 10px; }
+.fm-q .q-text { font-weight: 700; margin-bottom: 6px; }
+.fm-q .fm-answers { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0; }
+.fm-q .fm-answers button { font-size: 13px; padding: 6px 10px; }
+.fm-q .custom-row { display: flex; gap: 6px; align-items: center; }
+.fm-q .custom-row input[type="text"] { flex: 2; }
+.fm-q .custom-row input[type="number"] { flex: 1; max-width: 90px; }
+.fm-q .entered { color: var(--green); font-size: 13px; margin-top: 4px; min-height: 17px; }
+.fm-q .entered.dup { color: var(--red); }
+
+.fm-reveal-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+.fm-reveal-cell { background: var(--panel-2); border-radius: 8px; padding: 8px; font-size: 13px; }
+.fm-reveal-cell .who { color: var(--dim); }
+.fm-reveal-cell .what { font-weight: 700; margin: 3px 0; }
+
+.game-list button { text-align: left; }
+#load-error { color: var(--red); font-size: 13px; display: none; }
+code { background: #0d1424; padding: 2px 6px; border-radius: 4px; }
+footer { color: var(--dim); font-size: 12px; text-align: center; padding: 10px; }

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Family Feud — Host Panel</title>
+<link rel="stylesheet" href="css/host.css">
+</head>
+<body>
+
+<header>
+  <div class="brand">FAMILY FEUD — HOST</div>
+  <div id="stage-indicator">SETUP</div>
+  <div id="audience-status">Audience window: not open</div>
+  <div style="flex:1"></div>
+  <button id="btn-open-audience" class="primary">Open audience window</button>
+  <button id="btn-new-game">New game (reset)</button>
+</header>
+
+<main>
+  <!-- LEFT COLUMN: setup + stage flow -->
+  <div>
+    <div class="panel" id="setup-panel">
+      <h2>1 · Game &amp; Teams</h2>
+      <div id="game-picker">
+        <label for="game-select">Choose a game</label>
+        <select id="game-select"></select>
+        <div id="load-error"></div>
+        <div class="btn-row">
+          <button id="btn-load-file" class="wide">Load a game file (.json)…</button>
+          <input type="file" id="file-input" accept=".json,application/json" style="display:none">
+        </div>
+      </div>
+      <label for="team0-name">Team 1 name</label>
+      <input type="text" id="team0-name" placeholder="e.g. The Smiths" maxlength="24">
+      <label for="team1-name">Team 2 name</label>
+      <input type="text" id="team1-name" placeholder="e.g. The Johnsons" maxlength="24">
+      <div class="btn-row" style="margin-top:12px">
+        <button id="btn-start-show" class="gold big" disabled>Start the show (plays theme)</button>
+      </div>
+      <div class="hint">Open the audience window first, drag it to the TV screen, then click it once to enable sound and fullscreen.</div>
+    </div>
+
+    <div class="panel" id="flow-panel" style="margin-top:14px">
+      <h2>2 · Stage Flow</h2>
+      <div id="stage-controls">
+
+        <div class="stage-block" data-stage="ready">
+          <div class="hint">Theme is playing. When you're ready, start round 1 — the face-off cue will fire.</div>
+          <button id="btn-first-round" class="primary big">Start Round 1 (face-off)</button>
+        </div>
+
+        <div class="stage-block" data-stage="faceoff">
+          <div class="hint">Read the question aloud. Reveal any answers the face-off players give (right panel). Wrong guesses: use the buzzer button — face-off misses don't count as strikes.</div>
+          <button id="btn-faceoff-buzzer" class="bad wide">Wrong answer (buzzer only)</button>
+          <div class="sub">Who won the face-off?</div>
+          <div class="btn-row">
+            <button id="btn-faceoff-0" class="primary">Team 1</button>
+            <button id="btn-faceoff-1" class="primary">Team 2</button>
+          </div>
+        </div>
+
+        <div class="stage-block" data-stage="playorpass">
+          <div class="sub" id="pop-question">Play or pass?</div>
+          <div class="btn-row">
+            <button id="btn-play" class="good big">PLAY</button>
+            <button id="btn-pass" class="gold big">PASS</button>
+          </div>
+        </div>
+
+        <div class="stage-block" data-stage="round">
+          <div class="hint" id="round-hint"></div>
+          <button id="btn-strike" class="bad big">STRIKE&nbsp;&nbsp;✖</button>
+          <div class="sub">Board control</div>
+          <div class="btn-row">
+            <button id="btn-award-control" class="good wide"></button>
+          </div>
+        </div>
+
+        <div class="stage-block" data-stage="steal">
+          <div class="hint">Three strikes! The other family gets ONE guess to steal the bank. If their answer is on the board, reveal it first, then click Steal SUCCEEDED.</div>
+          <div class="btn-row">
+            <button id="btn-steal-good" class="good big">Steal SUCCEEDED</button>
+            <button id="btn-steal-bad" class="bad big">Steal FAILED</button>
+          </div>
+        </div>
+
+        <div class="stage-block" data-stage="roundover">
+          <div class="hint" id="roundover-hint"></div>
+          <button id="btn-reveal-rest" class="wide">Reveal remaining answers (no points)</button>
+          <div class="btn-row" style="margin-top:8px">
+            <button id="btn-next-round" class="primary big">Next round</button>
+            <button id="btn-goto-fm" class="gold big">Go to Fast Money</button>
+          </div>
+        </div>
+
+        <div class="stage-block" data-stage="fm-play">
+          <div class="hint" id="fm-play-hint"></div>
+          <div class="btn-row">
+            <button id="btn-fm-timer-20" class="primary">Start 20s clock</button>
+            <button id="btn-fm-timer-25" class="primary">Start 25s clock</button>
+            <button id="btn-fm-timer-stop" class="bad">Stop clock</button>
+          </div>
+          <div id="fm-entry"></div>
+          <div class="btn-row" style="margin-top:8px">
+            <button id="btn-fm-next-player" class="gold big">Done — switch to Player 2</button>
+            <button id="btn-fm-to-reveal" class="gold big">Done — go to the Big Reveal</button>
+          </div>
+        </div>
+
+        <div class="stage-block" data-stage="fm-reveal">
+          <div class="hint">Reveal each answer, then its points — the board and sounds follow automatically. Hit the target and the total goes gold.</div>
+          <div class="fm-reveal-grid" id="fm-reveal-grid"></div>
+        </div>
+
+        <div class="stage-block" data-stage="gameover">
+          <div class="hint">That's the game! Use "New game (reset)" in the header to load another game file and play again.</div>
+          <button id="btn-play-theme-again" class="gold wide">Play theme again</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- MIDDLE COLUMN: question + all answers (host sees everything) -->
+  <div class="panel">
+    <h2>Question &amp; Answers (host only — audience can't see this)</h2>
+    <div id="host-question">Load a game to begin.</div>
+    <div id="answers-grid"></div>
+    <div class="btn-row" style="margin-top:10px">
+      <button id="btn-toggle-question">Hide question on audience screen</button>
+    </div>
+  </div>
+
+  <!-- RIGHT COLUMN: scores + winner -->
+  <div class="panel">
+    <h2>Scores &amp; Bank</h2>
+    <div id="bank-line">BANK: 0</div>
+    <div class="team-box" id="tbox-0">
+      <div class="tname">Team 1</div>
+      <div class="strikes"></div>
+      <div class="tscore-row">
+        <input type="number" class="score-input" data-team="0" value="0">
+        <button class="score-set" data-team="0">Set</button>
+      </div>
+      <div class="btn-row">
+        <button class="award-btn good" data-team="0">Award bank ➜</button>
+      </div>
+    </div>
+    <div class="team-box" id="tbox-1">
+      <div class="tname">Team 2</div>
+      <div class="strikes"></div>
+      <div class="tscore-row">
+        <input type="number" class="score-input" data-team="1" value="0">
+        <button class="score-set" data-team="1">Set</button>
+      </div>
+      <div class="btn-row">
+        <button class="award-btn good" data-team="1">Award bank ➜</button>
+      </div>
+    </div>
+    <h2 style="margin-top:14px">Finish</h2>
+    <div class="btn-row">
+      <button id="btn-declare-winner" class="gold big">Declare winner 🏆</button>
+    </div>
+    <h2 style="margin-top:14px">Sound Check</h2>
+    <div class="btn-row">
+      <button data-cue="correct-ding" class="cue-test">Ding</button>
+      <button data-cue="strike-buzzer" class="cue-test">Buzzer</button>
+      <button data-cue="theme" class="cue-test">Theme</button>
+      <button id="btn-stop-sounds" class="bad">Stop</button>
+    </div>
+    <div class="hint">Sounds play on the audience screen when it's connected and clicked once; otherwise they play here.</div>
+  </div>
+</main>
+
+<footer>Family Feud home edition — offline host panel. Board style after the MacEvelly CodePen; logic ideas after timlohnes/familyfeud and joshzcold/Friendly-Feud.</footer>
+
+<script src="js/points.js"></script>
+<script src="js/sounds.js"></script>
+<script src="js/host.js"></script>
+</body>
+</html>

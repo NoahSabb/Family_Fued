@@ -1,0 +1,271 @@
+{
+  "title": "Game 13 — Weeknight Dinners",
+  "rounds": [
+    {
+      "question": "Name a dish you serve your family at least once a week",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Pasta",
+          "points": 21
+        },
+        {
+          "text": "Chicken",
+          "points": 20
+        },
+        {
+          "text": "Hamburgers",
+          "points": 20
+        },
+        {
+          "text": "Potatoes",
+          "points": 11
+        },
+        {
+          "text": "Meat Loaf",
+          "points": 3
+        },
+        {
+          "text": "Pizza",
+          "points": 3
+        },
+        {
+          "text": "Steak",
+          "points": 3
+        },
+        {
+          "text": "Eggs",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Name something in a store that might have a sign that says \"Fresh\" on it",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Produce",
+          "points": 38
+        },
+        {
+          "text": "Bread",
+          "points": 18
+        },
+        {
+          "text": "Fish",
+          "points": 11
+        },
+        {
+          "text": "Eggs",
+          "points": 10
+        },
+        {
+          "text": "Flowers",
+          "points": 6
+        },
+        {
+          "text": "Meat",
+          "points": 4
+        },
+        {
+          "text": "Donuts",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "question": "Tell me something you see in front of schools",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "Flag",
+          "points": 55
+        },
+        {
+          "text": "Children",
+          "points": 18
+        },
+        {
+          "text": "Buses",
+          "points": 13
+        },
+        {
+          "text": "Crossing Guard",
+          "points": 2
+        },
+        {
+          "text": "School Name",
+          "points": 2
+        },
+        {
+          "text": "Speed Limit Sign",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Name something that prevents you from getting to bed early",
+      "multiplier": 3,
+      "answers": [
+        {
+          "text": "TV",
+          "points": 61
+        },
+        {
+          "text": "Phone",
+          "points": 14
+        },
+        {
+          "text": "Children",
+          "points": 9
+        },
+        {
+          "text": "Guest",
+          "points": 4
+        },
+        {
+          "text": "Work",
+          "points": 4
+        }
+      ]
+    }
+  ],
+  "fast_money": {
+    "target": 200,
+    "questions": [
+      {
+        "question": "Name an occupation that requires a license",
+        "answers": [
+          {
+            "text": "Physician",
+            "points": 24
+          },
+          {
+            "text": "Truck Driver",
+            "points": 14
+          },
+          {
+            "text": "Nurse",
+            "points": 11
+          },
+          {
+            "text": "Taxi Driver",
+            "points": 9
+          },
+          {
+            "text": "Barber",
+            "points": 8
+          },
+          {
+            "text": "Chauffeur",
+            "points": 7
+          }
+        ]
+      },
+      {
+        "question": "Name an American city that begins with the letter \"S\"",
+        "answers": [
+          {
+            "text": "San Francisco",
+            "points": 45
+          },
+          {
+            "text": "Seattle",
+            "points": 30
+          },
+          {
+            "text": "Sacramento",
+            "points": 5
+          },
+          {
+            "text": "San Diego",
+            "points": 4
+          },
+          {
+            "text": "St Louis",
+            "points": 4
+          },
+          {
+            "text": "Salt Lake City",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "question": "Name something a teacher holds while teaching",
+        "answers": [
+          {
+            "text": "Chalk",
+            "points": 60
+          },
+          {
+            "text": "Pointer",
+            "points": 11
+          },
+          {
+            "text": "Book",
+            "points": 10
+          },
+          {
+            "text": "Ruler",
+            "points": 9
+          },
+          {
+            "text": "Pencil",
+            "points": 8
+          },
+          {
+            "text": "Eraser",
+            "points": 2
+          }
+        ]
+      },
+      {
+        "question": "Name something you drink hot",
+        "answers": [
+          {
+            "text": "Coffee",
+            "points": 65
+          },
+          {
+            "text": "Cocoa",
+            "points": 17
+          },
+          {
+            "text": "Tea",
+            "points": 15
+          }
+        ]
+      },
+      {
+        "question": "Name something that might be ruined if it had a scratch on it",
+        "answers": [
+          {
+            "text": "Record",
+            "points": 38
+          },
+          {
+            "text": "Eyeglasses",
+            "points": 20
+          },
+          {
+            "text": "Table",
+            "points": 10
+          },
+          {
+            "text": "Car",
+            "points": 8
+          },
+          {
+            "text": "Painting",
+            "points": 6
+          },
+          {
+            "text": "Mirror",
+            "points": 5
+          }
+        ]
+      }
+    ]
+  }
+}

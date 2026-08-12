@@ -1,0 +1,227 @@
+{
+  "title": "Game 11 — Sticker Shock",
+  "rounds": [
+    {
+      "question": "Name something comfortable to wear that was once cheap but now isn't",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Shoes",
+          "points": 48
+        },
+        {
+          "text": "Blue Jeans",
+          "points": 30
+        },
+        {
+          "text": "T Shirts",
+          "points": 3
+        },
+        {
+          "text": "Nightgown",
+          "points": 2
+        },
+        {
+          "text": "Perfume",
+          "points": 2
+        },
+        {
+          "text": "Sweater",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Name something a new miss America does the moment she's crowned",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Cries",
+          "points": 76
+        },
+        {
+          "text": "Walks Runway",
+          "points": 9
+        },
+        {
+          "text": "Wears Crown",
+          "points": 5
+        },
+        {
+          "text": "Smiles",
+          "points": 4
+        },
+        {
+          "text": "Waves",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Name something people do while watching TV",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "Eat",
+          "points": 91
+        },
+        {
+          "text": "Knit",
+          "points": 3
+        },
+        {
+          "text": "Read",
+          "points": 3
+        },
+        {
+          "text": "Fall Asleep",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Name something you might do when the TV is broken",
+      "multiplier": 3,
+      "answers": [
+        {
+          "text": "Read",
+          "points": 57
+        },
+        {
+          "text": "Music",
+          "points": 19
+        },
+        {
+          "text": "Cards",
+          "points": 9
+        },
+        {
+          "text": "Movie",
+          "points": 3
+        }
+      ]
+    }
+  ],
+  "fast_money": {
+    "target": 200,
+    "questions": [
+      {
+        "question": "Name something you'd wear even if it has a hole in it",
+        "answers": [
+          {
+            "text": "Sock",
+            "points": 35
+          },
+          {
+            "text": "Jeans",
+            "points": 22
+          },
+          {
+            "text": "Underwear",
+            "points": 19
+          },
+          {
+            "text": "Shoe",
+            "points": 8
+          },
+          {
+            "text": "Sweater",
+            "points": 6
+          },
+          {
+            "text": "T Shirt",
+            "points": 4
+          }
+        ]
+      },
+      {
+        "question": "Besides a bathing suit, name something people wear in the water",
+        "answers": [
+          {
+            "text": "Goggles",
+            "points": 23
+          },
+          {
+            "text": "Bathing Cap",
+            "points": 20
+          },
+          {
+            "text": "Shorts",
+            "points": 14
+          },
+          {
+            "text": "Wet Suit",
+            "points": 8
+          },
+          {
+            "text": "Ear Plugs",
+            "points": 7
+          },
+          {
+            "text": "Fins",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "question": "Name something that sisters almost always fight over",
+        "answers": [
+          {
+            "text": "Clothes",
+            "points": 68
+          },
+          {
+            "text": "Boys",
+            "points": 10
+          },
+          {
+            "text": "Bathroom",
+            "points": 7
+          },
+          {
+            "text": "Telephone",
+            "points": 6
+          },
+          {
+            "text": "Makeup",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "question": "Name something you tuck in",
+        "answers": [
+          {
+            "text": "Shirt",
+            "points": 68
+          },
+          {
+            "text": "Sheets",
+            "points": 17
+          },
+          {
+            "text": "Children",
+            "points": 13
+          }
+        ]
+      },
+      {
+        "question": "Name a piece of silverware",
+        "answers": [
+          {
+            "text": "Fork",
+            "points": 44
+          },
+          {
+            "text": "Spoon",
+            "points": 39
+          },
+          {
+            "text": "Knife",
+            "points": 12
+          }
+        ]
+      }
+    ]
+  }
+}

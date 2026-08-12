@@ -1,0 +1,255 @@
+{
+  "title": "Game 27 — Daily Reads",
+  "rounds": [
+    {
+      "question": "Name something you read every day, without fail",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Newspaper",
+          "points": 69
+        },
+        {
+          "text": "TV Guide",
+          "points": 9
+        },
+        {
+          "text": "Bible",
+          "points": 8
+        },
+        {
+          "text": "Mail",
+          "points": 5
+        },
+        {
+          "text": "Clock",
+          "points": 2
+        },
+        {
+          "text": "Calendar",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Name something imported from Germany",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Beer",
+          "points": 48
+        },
+        {
+          "text": "Cars",
+          "points": 31
+        },
+        {
+          "text": "Clocks",
+          "points": 8
+        },
+        {
+          "text": "Chocolate",
+          "points": 5
+        },
+        {
+          "text": "Hummel Figures",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "question": "Name something people take home from the office for their own use",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "Pencil",
+          "points": 65
+        },
+        {
+          "text": "Paper Clips",
+          "points": 13
+        },
+        {
+          "text": "Paper",
+          "points": 13
+        },
+        {
+          "text": "Typewriter",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Name the workday that seems the longest",
+      "multiplier": 3,
+      "answers": [
+        {
+          "text": "Monday",
+          "points": 55
+        },
+        {
+          "text": "Friday",
+          "points": 35
+        },
+        {
+          "text": "Thursday",
+          "points": 4
+        },
+        {
+          "text": "Tuesday",
+          "points": 3
+        },
+        {
+          "text": "Wednesday",
+          "points": 3
+        }
+      ]
+    }
+  ],
+  "fast_money": {
+    "target": 200,
+    "questions": [
+      {
+        "question": "Name a kind of canned bean",
+        "answers": [
+          {
+            "text": "Green",
+            "points": 41
+          },
+          {
+            "text": "Baked",
+            "points": 33
+          },
+          {
+            "text": "Kidney",
+            "points": 11
+          },
+          {
+            "text": "Lima",
+            "points": 6
+          },
+          {
+            "text": "Chili",
+            "points": 2
+          }
+        ]
+      },
+      {
+        "question": "Name a white flower",
+        "answers": [
+          {
+            "text": "Carnation",
+            "points": 24
+          },
+          {
+            "text": "Daisy",
+            "points": 23
+          },
+          {
+            "text": "Lily",
+            "points": 23
+          },
+          {
+            "text": "Gardenia",
+            "points": 13
+          },
+          {
+            "text": "Rose",
+            "points": 10
+          },
+          {
+            "text": "Orchid",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "question": "Name a part of a car cold weather is bad for",
+        "answers": [
+          {
+            "text": "Battery",
+            "points": 36
+          },
+          {
+            "text": "Radiator",
+            "points": 21
+          },
+          {
+            "text": "Engine",
+            "points": 17
+          },
+          {
+            "text": "Tires",
+            "points": 6
+          },
+          {
+            "text": "Paint",
+            "points": 4
+          },
+          {
+            "text": "Locks",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "question": "Name something associated with cowboys",
+        "answers": [
+          {
+            "text": "Horses",
+            "points": 42
+          },
+          {
+            "text": "Indians",
+            "points": 15
+          },
+          {
+            "text": "Boots",
+            "points": 14
+          },
+          {
+            "text": "Hat",
+            "points": 12
+          },
+          {
+            "text": "Spurs",
+            "points": 6
+          },
+          {
+            "text": "Guns",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "question": "What do the colors red & white make you think of?",
+        "answers": [
+          {
+            "text": "American Flag",
+            "points": 36
+          },
+          {
+            "text": "Candy Cane",
+            "points": 22
+          },
+          {
+            "text": "Valentine",
+            "points": 7
+          },
+          {
+            "text": "Red Cross",
+            "points": 5
+          },
+          {
+            "text": "School Colors",
+            "points": 5
+          },
+          {
+            "text": "Barber Pole",
+            "points": 4
+          }
+        ]
+      }
+    ]
+  }
+}

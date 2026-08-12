@@ -1,0 +1,239 @@
+{
+  "title": "Game 28 — Home Cooking",
+  "rounds": [
+    {
+      "question": "Name a food you can cook just as well as most restaurants",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Steak",
+          "points": 24
+        },
+        {
+          "text": "Hamburger",
+          "points": 16
+        },
+        {
+          "text": "Spaghetti",
+          "points": 14
+        },
+        {
+          "text": "Chicken",
+          "points": 10
+        },
+        {
+          "text": "Eggs",
+          "points": 10
+        },
+        {
+          "text": "Potatoes",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "question": "What would be the worst thing you could be turned down for?",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Job",
+          "points": 33
+        },
+        {
+          "text": "Loan",
+          "points": 30
+        },
+        {
+          "text": "Marriage",
+          "points": 14
+        },
+        {
+          "text": "Promotion",
+          "points": 7
+        },
+        {
+          "text": "Love",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "question": "Name something you have to buy in order to go skiing",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "Skis",
+          "points": 31
+        },
+        {
+          "text": "Lift Ticket",
+          "points": 23
+        },
+        {
+          "text": "Ski Suit",
+          "points": 22
+        },
+        {
+          "text": "Gloves",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "question": "Name a color of men's suits",
+      "multiplier": 3,
+      "answers": [
+        {
+          "text": "Blue",
+          "points": 42
+        },
+        {
+          "text": "Gray",
+          "points": 25
+        },
+        {
+          "text": "Brown",
+          "points": 19
+        },
+        {
+          "text": "Black",
+          "points": 13
+        }
+      ]
+    }
+  ],
+  "fast_money": {
+    "target": 200,
+    "questions": [
+      {
+        "question": "Tell me a food people eat and then regret later",
+        "answers": [
+          {
+            "text": "Onions",
+            "points": 20
+          },
+          {
+            "text": "Chili",
+            "points": 17
+          },
+          {
+            "text": "Beans",
+            "points": 14
+          },
+          {
+            "text": "Ice Cream",
+            "points": 6
+          },
+          {
+            "text": "Peppers",
+            "points": 6
+          },
+          {
+            "text": "Pizza",
+            "points": 6
+          }
+        ]
+      },
+      {
+        "question": "Name something that is sealed",
+        "answers": [
+          {
+            "text": "Mail",
+            "points": 65
+          },
+          {
+            "text": "Medicine",
+            "points": 20
+          },
+          {
+            "text": "Milk Carton",
+            "points": 3
+          },
+          {
+            "text": "Cereal",
+            "points": 2
+          }
+        ]
+      },
+      {
+        "question": "What is the first thing you open when you come home at night?",
+        "answers": [
+          {
+            "text": "House Door",
+            "points": 66
+          },
+          {
+            "text": "Mail",
+            "points": 20
+          },
+          {
+            "text": "Garage Door",
+            "points": 6
+          },
+          {
+            "text": "Refrigerator",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "question": "Name the one thing you want out of life more than any other",
+        "answers": [
+          {
+            "text": "Happiness",
+            "points": 30
+          },
+          {
+            "text": "Good Health",
+            "points": 24
+          },
+          {
+            "text": "Money",
+            "points": 17
+          },
+          {
+            "text": "Love",
+            "points": 10
+          },
+          {
+            "text": "Peace",
+            "points": 5
+          },
+          {
+            "text": "Family",
+            "points": 4
+          }
+        ]
+      },
+      {
+        "question": "Name something parents buy that gets their kids all excited",
+        "answers": [
+          {
+            "text": "New Car",
+            "points": 38
+          },
+          {
+            "text": "Dog",
+            "points": 14
+          },
+          {
+            "text": "Toys",
+            "points": 13
+          },
+          {
+            "text": "Pool",
+            "points": 7
+          },
+          {
+            "text": "Bicycle",
+            "points": 5
+          },
+          {
+            "text": "New TV",
+            "points": 5
+          }
+        ]
+      }
+    ]
+  }
+}

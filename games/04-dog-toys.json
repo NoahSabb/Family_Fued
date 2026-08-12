@@ -1,0 +1,263 @@
+{
+  "title": "Game 04 — Dog Toys",
+  "rounds": [
+    {
+      "question": "Name something dogs like to play with",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Ball",
+          "points": 51
+        },
+        {
+          "text": "Bone",
+          "points": 14
+        },
+        {
+          "text": "Shoes",
+          "points": 14
+        },
+        {
+          "text": "Socks",
+          "points": 5
+        },
+        {
+          "text": "People",
+          "points": 3
+        },
+        {
+          "text": "Stick",
+          "points": 3
+        },
+        {
+          "text": "Cats",
+          "points": 3
+        },
+        {
+          "text": "Frisbee",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Name something people take from restaurants as souvenirs",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Ashtrays",
+          "points": 41
+        },
+        {
+          "text": "Matches",
+          "points": 35
+        },
+        {
+          "text": "Salt & Pepper",
+          "points": 8
+        },
+        {
+          "text": "Napkins",
+          "points": 5
+        },
+        {
+          "text": "Place Mat",
+          "points": 3
+        },
+        {
+          "text": "Silverware",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "question": "Name something kids remember riding on for the first time",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "Bicycle",
+          "points": 32
+        },
+        {
+          "text": "Horse",
+          "points": 29
+        },
+        {
+          "text": "Airplane",
+          "points": 10
+        },
+        {
+          "text": "Merry Go Round",
+          "points": 10
+        },
+        {
+          "text": "Roller Coaster",
+          "points": 5
+        },
+        {
+          "text": "Train",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "question": "Name someone to whom others confess wrongs they've done",
+      "multiplier": 3,
+      "answers": [
+        {
+          "text": "Clergyman",
+          "points": 68
+        },
+        {
+          "text": "Friend",
+          "points": 14
+        },
+        {
+          "text": "Parent",
+          "points": 8
+        },
+        {
+          "text": "Spouse",
+          "points": 4
+        }
+      ]
+    }
+  ],
+  "fast_money": {
+    "target": 200,
+    "questions": [
+      {
+        "question": "Name something that's hard to open",
+        "answers": [
+          {
+            "text": "Bottle",
+            "points": 40
+          },
+          {
+            "text": "Jar",
+            "points": 38
+          },
+          {
+            "text": "Can",
+            "points": 5
+          },
+          {
+            "text": "Chips",
+            "points": 4
+          },
+          {
+            "text": "Safe",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "question": "Name somewhere you'd see flowers",
+        "answers": [
+          {
+            "text": "Funeral",
+            "points": 30
+          },
+          {
+            "text": "Florist",
+            "points": 24
+          },
+          {
+            "text": "Garden",
+            "points": 15
+          },
+          {
+            "text": "Wedding",
+            "points": 11
+          },
+          {
+            "text": "Cemetery",
+            "points": 7
+          },
+          {
+            "text": "Park",
+            "points": 4
+          }
+        ]
+      },
+      {
+        "question": "Name a measure of distance other than an inch",
+        "answers": [
+          {
+            "text": "Mile",
+            "points": 38
+          },
+          {
+            "text": "Foot",
+            "points": 29
+          },
+          {
+            "text": "Yard",
+            "points": 15
+          },
+          {
+            "text": "Meter",
+            "points": 11
+          },
+          {
+            "text": "Kilometer",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "question": "Name an expensive fabric",
+        "answers": [
+          {
+            "text": "Silk",
+            "points": 75
+          },
+          {
+            "text": "Velvet",
+            "points": 9
+          },
+          {
+            "text": "Cashmere",
+            "points": 5
+          },
+          {
+            "text": "Satin",
+            "points": 4
+          },
+          {
+            "text": "Suede",
+            "points": 4
+          }
+        ]
+      },
+      {
+        "question": "Name something people keep spares of",
+        "answers": [
+          {
+            "text": "Tires",
+            "points": 73
+          },
+          {
+            "text": "Light Bulbs",
+            "points": 9
+          },
+          {
+            "text": "Batteries",
+            "points": 4
+          },
+          {
+            "text": "Keys",
+            "points": 4
+          },
+          {
+            "text": "Nylons",
+            "points": 4
+          },
+          {
+            "text": "Toilet Paper",
+            "points": 3
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "title": "Game 18 — Fridge Raiders",
+  "rounds": [
+    {
+      "question": "What might you have two or three different kinds of in your fridge?",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Salad Dressing",
+          "points": 28
+        },
+        {
+          "text": "Cheese",
+          "points": 25
+        },
+        {
+          "text": "Beverage",
+          "points": 14
+        },
+        {
+          "text": "Jam",
+          "points": 6
+        },
+        {
+          "text": "Fruit",
+          "points": 5
+        },
+        {
+          "text": "Mustard",
+          "points": 5
+        },
+        {
+          "text": "Pickles",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "question": "Name something that there never seems to be enough of at your house",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Money",
+          "points": 45
+        },
+        {
+          "text": "Food",
+          "points": 26
+        },
+        {
+          "text": "Soft Drinks",
+          "points": 4
+        },
+        {
+          "text": "Time",
+          "points": 4
+        },
+        {
+          "text": "Toilet Paper",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "question": "Name something a rich person has that's bigger than what others have",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "House",
+          "points": 69
+        },
+        {
+          "text": "Bank Account",
+          "points": 15
+        },
+        {
+          "text": "Car",
+          "points": 9
+        },
+        {
+          "text": "Boat",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "question": "Name one of a secretary's duties",
+      "multiplier": 3,
+      "answers": [
+        {
+          "text": "Typing",
+          "points": 71
+        },
+        {
+          "text": "Taking Dictation",
+          "points": 11
+        },
+        {
+          "text": "Answer Phones",
+          "points": 9
+        },
+        {
+          "text": "Coffee",
+          "points": 4
+        },
+        {
+          "text": "Filing",
+          "points": 3
+        }
+      ]
+    }
+  ],
+  "fast_money": {
+    "target": 200,
+    "questions": [
+      {
+        "question": "Name a food you eat on crackers",
+        "answers": [
+          {
+            "text": "Cheese",
+            "points": 84
+          },
+          {
+            "text": "Peanut Butter",
+            "points": 12
+          },
+          {
+            "text": "Sardines",
+            "points": 2
+          }
+        ]
+      },
+      {
+        "question": "Name a state that was part of the confederacy during the civil war",
+        "answers": [
+          {
+            "text": "Georgia",
+            "points": 30
+          },
+          {
+            "text": "Virginia",
+            "points": 23
+          },
+          {
+            "text": "Mississippi",
+            "points": 12
+          },
+          {
+            "text": "Alabama",
+            "points": 11
+          },
+          {
+            "text": "South Carolina",
+            "points": 7
+          },
+          {
+            "text": "Tennessee",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "question": "Besides candy, name something chocolate flavored",
+        "answers": [
+          {
+            "text": "Milk",
+            "points": 25
+          },
+          {
+            "text": "Ice Cream",
+            "points": 22
+          },
+          {
+            "text": "Cake",
+            "points": 19
+          },
+          {
+            "text": "Pudding",
+            "points": 7
+          },
+          {
+            "text": "Hot Cocoa",
+            "points": 4
+          },
+          {
+            "text": "Pie",
+            "points": 4
+          }
+        ]
+      },
+      {
+        "question": "Name a game that kids have played for generations",
+        "answers": [
+          {
+            "text": "Hide & Seek",
+            "points": 24
+          },
+          {
+            "text": "Tag",
+            "points": 23
+          },
+          {
+            "text": "Hopscotch",
+            "points": 15
+          },
+          {
+            "text": "Baseball",
+            "points": 10
+          },
+          {
+            "text": "Monopoly",
+            "points": 8
+          },
+          {
+            "text": "Checkers",
+            "points": 2
+          }
+        ]
+      },
+      {
+        "question": "Name something that's easy to do forwards, but hard backwards",
+        "answers": [
+          {
+            "text": "Walk",
+            "points": 24
+          },
+          {
+            "text": "Run",
+            "points": 19
+          },
+          {
+            "text": "Drive",
+            "points": 14
+          },
+          {
+            "text": "Write",
+            "points": 11
+          },
+          {
+            "text": "Skate",
+            "points": 10
+          },
+          {
+            "text": "Ride Bicycle",
+            "points": 9
+          }
+        ]
+      }
+    ]
+  }
+}

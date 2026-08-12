@@ -1,0 +1,116 @@
+{
+  "games": [
+    {
+      "file": "01-vroom-vroom.json",
+      "title": "Game 01 — Vroom Vroom"
+    },
+    {
+      "file": "02-spoon-fed.json",
+      "title": "Game 02 — Spoon Fed"
+    },
+    {
+      "file": "03-house-keys.json",
+      "title": "Game 03 — House Keys"
+    },
+    {
+      "file": "04-dog-toys.json",
+      "title": "Game 04 — Dog Toys"
+    },
+    {
+      "file": "05-live-music.json",
+      "title": "Game 05 — Live Music"
+    },
+    {
+      "file": "06-scary-sounds.json",
+      "title": "Game 06 — Scary Sounds"
+    },
+    {
+      "file": "07-deadly-bites.json",
+      "title": "Game 07 — Deadly Bites"
+    },
+    {
+      "file": "08-party-time.json",
+      "title": "Game 08 — Party Time"
+    },
+    {
+      "file": "09-holy-titles.json",
+      "title": "Game 09 — Holy Titles"
+    },
+    {
+      "file": "10-crunch-time.json",
+      "title": "Game 10 — Crunch Time"
+    },
+    {
+      "file": "11-sticker-shock.json",
+      "title": "Game 11 — Sticker Shock"
+    },
+    {
+      "file": "12-on-the-rise.json",
+      "title": "Game 12 — On the Rise"
+    },
+    {
+      "file": "13-weeknight-dinners.json",
+      "title": "Game 13 — Weeknight Dinners"
+    },
+    {
+      "file": "14-tough-jobs.json",
+      "title": "Game 14 — Tough Jobs"
+    },
+    {
+      "file": "15-stocking-stuffers.json",
+      "title": "Game 15 — Stocking Stuffers"
+    },
+    {
+      "file": "16-memory-lane.json",
+      "title": "Game 16 — Memory Lane"
+    },
+    {
+      "file": "17-feel-good.json",
+      "title": "Game 17 — Feel Good"
+    },
+    {
+      "file": "18-fridge-raiders.json",
+      "title": "Game 18 — Fridge Raiders"
+    },
+    {
+      "file": "19-coloring-book.json",
+      "title": "Game 19 — Coloring Book"
+    },
+    {
+      "file": "20-mantel-pieces.json",
+      "title": "Game 20 — Mantel Pieces"
+    },
+    {
+      "file": "21-morning-routine.json",
+      "title": "Game 21 — Morning Routine"
+    },
+    {
+      "file": "22-moving-day.json",
+      "title": "Game 22 — Moving Day"
+    },
+    {
+      "file": "23-sharp-objects.json",
+      "title": "Game 23 — Sharp Objects"
+    },
+    {
+      "file": "24-gift-wrapped.json",
+      "title": "Game 24 — Gift Wrapped"
+    },
+    {
+      "file": "25-due-dates.json",
+      "title": "Game 25 — Due Dates"
+    },
+    {
+      "file": "26-sports-seasons.json",
+      "title": "Game 26 — Sports Seasons"
+    },
+    {
+      "file": "27-daily-reads.json",
+      "title": "Game 27 — Daily Reads"
+    },
+    {
+      "file": "28-home-cooking.json",
+      "title": "Game 28 — Home Cooking"
+    }
+  ]
+}

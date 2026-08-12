@@ -1,0 +1,267 @@
+{
+  "title": "Game 21 — Morning Routine",
+  "rounds": [
+    {
+      "question": "Name something you use in the mornings",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Coffee Maker",
+          "points": 29
+        },
+        {
+          "text": "Hair Dryer",
+          "points": 22
+        },
+        {
+          "text": "Razor",
+          "points": 16
+        },
+        {
+          "text": "Toaster",
+          "points": 13
+        },
+        {
+          "text": "Curling Iron",
+          "points": 7
+        },
+        {
+          "text": "Alarm",
+          "points": 4
+        },
+        {
+          "text": "Oven",
+          "points": 4
+        },
+        {
+          "text": "Lights",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "question": "Name something you can use as collateral for a loan",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "House",
+          "points": 61
+        },
+        {
+          "text": "Car",
+          "points": 19
+        },
+        {
+          "text": "Stocks",
+          "points": 8
+        },
+        {
+          "text": "Furniture",
+          "points": 3
+        },
+        {
+          "text": "Jewelry",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Name a fruit you'd find on top of cheesecake",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "Cherries",
+          "points": 70
+        },
+        {
+          "text": "Strawberry",
+          "points": 20
+        },
+        {
+          "text": "Pineapple",
+          "points": 5
+        },
+        {
+          "text": "Blueberries",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "question": "Name something found in a playground",
+      "multiplier": 3,
+      "answers": [
+        {
+          "text": "Swing",
+          "points": 72
+        },
+        {
+          "text": "Slide",
+          "points": 16
+        },
+        {
+          "text": "Merry Go Round",
+          "points": 4
+        },
+        {
+          "text": "Seesaw",
+          "points": 4
+        },
+        {
+          "text": "Sandbox",
+          "points": 3
+        }
+      ]
+    }
+  ],
+  "fast_money": {
+    "target": 200,
+    "questions": [
+      {
+        "question": "Name a kind of item for which you'll never change brands",
+        "answers": [
+          {
+            "text": "Soap",
+            "points": 25
+          },
+          {
+            "text": "Coffee",
+            "points": 18
+          },
+          {
+            "text": "Cigarettes",
+            "points": 9
+          },
+          {
+            "text": "Toothpaste",
+            "points": 9
+          },
+          {
+            "text": "Car",
+            "points": 4
+          },
+          {
+            "text": "Shampoo",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "question": "Where's your favorite place to have a picnic?",
+        "answers": [
+          {
+            "text": "Park",
+            "points": 42
+          },
+          {
+            "text": "Lake",
+            "points": 20
+          },
+          {
+            "text": "Beach",
+            "points": 19
+          },
+          {
+            "text": "Mountains",
+            "points": 8
+          },
+          {
+            "text": "Backyard",
+            "points": 4
+          },
+          {
+            "text": "Woods",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "question": "Name something used only in winter",
+        "answers": [
+          {
+            "text": "Snow Shovel",
+            "points": 21
+          },
+          {
+            "text": "Sled",
+            "points": 14
+          },
+          {
+            "text": "Coat",
+            "points": 9
+          },
+          {
+            "text": "Gloves",
+            "points": 7
+          },
+          {
+            "text": "Snow Tires",
+            "points": 7
+          },
+          {
+            "text": "Snowmobile",
+            "points": 7
+          }
+        ]
+      },
+      {
+        "question": "Name something you might forget in a restaurant",
+        "answers": [
+          {
+            "text": "Purse",
+            "points": 27
+          },
+          {
+            "text": "Coat",
+            "points": 15
+          },
+          {
+            "text": "To Leave A Tip",
+            "points": 14
+          },
+          {
+            "text": "Hat",
+            "points": 13
+          },
+          {
+            "text": "Umbrella",
+            "points": 11
+          },
+          {
+            "text": "Keys",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "question": "Name something specific which people clean for a living",
+        "answers": [
+          {
+            "text": "Carpets",
+            "points": 21
+          },
+          {
+            "text": "Houses",
+            "points": 20
+          },
+          {
+            "text": "Cars",
+            "points": 12
+          },
+          {
+            "text": "Windows",
+            "points": 12
+          },
+          {
+            "text": "Clothes",
+            "points": 7
+          },
+          {
+            "text": "Offices",
+            "points": 7
+          }
+        ]
+      }
+    ]
+  }
+}

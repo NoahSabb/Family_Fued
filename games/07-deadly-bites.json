@@ -1,0 +1,263 @@
+{
+  "title": "Game 07 — Deadly Bites",
+  "rounds": [
+    {
+      "question": "Name an animal that can kill with its bite",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Snake",
+          "points": 46
+        },
+        {
+          "text": "Lion",
+          "points": 18
+        },
+        {
+          "text": "Tiger",
+          "points": 10
+        },
+        {
+          "text": "Shark",
+          "points": 9
+        },
+        {
+          "text": "Bear",
+          "points": 6
+        },
+        {
+          "text": "Alligator",
+          "points": 5
+        },
+        {
+          "text": "Dog",
+          "points": 3
+        },
+        {
+          "text": "Spider",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Name the smartest animal",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Dog",
+          "points": 29
+        },
+        {
+          "text": "Monkey",
+          "points": 21
+        },
+        {
+          "text": "Dolphin",
+          "points": 16
+        },
+        {
+          "text": "Cat",
+          "points": 14
+        },
+        {
+          "text": "Fox",
+          "points": 5
+        },
+        {
+          "text": "Horse",
+          "points": 4
+        },
+        {
+          "text": "Parrot",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "question": "What might bring a couple back from the brink of divorce?",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "Children",
+          "points": 71
+        },
+        {
+          "text": "Counseling",
+          "points": 8
+        },
+        {
+          "text": "Pregnancy",
+          "points": 8
+        },
+        {
+          "text": "Sickness",
+          "points": 4
+        },
+        {
+          "text": "Money",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Name something that's often located in the basement of a house",
+      "multiplier": 3,
+      "answers": [
+        {
+          "text": "Furnace",
+          "points": 60
+        },
+        {
+          "text": "Hot Water Tank",
+          "points": 15
+        },
+        {
+          "text": "Washer",
+          "points": 13
+        },
+        {
+          "text": "Fuse Box",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "fast_money": {
+    "target": 200,
+    "questions": [
+      {
+        "question": "What's the first thing making noise in the morning besides your alarm?",
+        "answers": [
+          {
+            "text": "Coffee Maker",
+            "points": 25
+          },
+          {
+            "text": "Birds",
+            "points": 23
+          },
+          {
+            "text": "Children",
+            "points": 19
+          },
+          {
+            "text": "Radio",
+            "points": 13
+          },
+          {
+            "text": "TV",
+            "points": 6
+          },
+          {
+            "text": "Shower",
+            "points": 4
+          }
+        ]
+      },
+      {
+        "question": "Besides pills, name a cure for headaches",
+        "answers": [
+          {
+            "text": "Sleep",
+            "points": 33
+          },
+          {
+            "text": "Rest",
+            "points": 24
+          },
+          {
+            "text": "Cold Compress",
+            "points": 16
+          },
+          {
+            "text": "Massage",
+            "points": 12
+          },
+          {
+            "text": "Hot Shower",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "question": "Name a fabric that feels good next to your skin",
+        "answers": [
+          {
+            "text": "Silk",
+            "points": 50
+          },
+          {
+            "text": "Satin",
+            "points": 16
+          },
+          {
+            "text": "Cotton",
+            "points": 14
+          },
+          {
+            "text": "Velvet",
+            "points": 6
+          },
+          {
+            "text": "Nylon",
+            "points": 5
+          },
+          {
+            "text": "Flannel",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "question": "Name something that carries passengers",
+        "answers": [
+          {
+            "text": "Bus",
+            "points": 36
+          },
+          {
+            "text": "Airplane",
+            "points": 31
+          },
+          {
+            "text": "Train",
+            "points": 22
+          },
+          {
+            "text": "Car",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "question": "Give me a word associated with photography",
+        "answers": [
+          {
+            "text": "Picture",
+            "points": 36
+          },
+          {
+            "text": "Camera",
+            "points": 35
+          },
+          {
+            "text": "Film",
+            "points": 11
+          },
+          {
+            "text": "Kodak",
+            "points": 3
+          },
+          {
+            "text": "Cheese",
+            "points": 2
+          },
+          {
+            "text": "Darkroom",
+            "points": 2
+          }
+        ]
+      }
+    ]
+  }
+}

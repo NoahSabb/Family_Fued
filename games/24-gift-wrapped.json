@@ -1,0 +1,227 @@
+{
+  "title": "Game 24 — Gift Wrapped",
+  "rounds": [
+    {
+      "question": "Name a kind of party where you would be expected to bring a gift",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Birthday",
+          "points": 59
+        },
+        {
+          "text": "Shower",
+          "points": 25
+        },
+        {
+          "text": "Wedding",
+          "points": 5
+        },
+        {
+          "text": "Anniversary",
+          "points": 4
+        },
+        {
+          "text": "Housewarming",
+          "points": 3
+        },
+        {
+          "text": "Graduation",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Besides Christmas, name a holiday for which you make a lot of plans",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Thanksgiving",
+          "points": 63
+        },
+        {
+          "text": "Easter",
+          "points": 19
+        },
+        {
+          "text": "Fourth Of July",
+          "points": 9
+        },
+        {
+          "text": "New Year's",
+          "points": 6
+        },
+        {
+          "text": "Halloween",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Name an occasion when a woman might wear a hat",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "Wedding",
+          "points": 32
+        },
+        {
+          "text": "Funeral",
+          "points": 26
+        },
+        {
+          "text": "Easter",
+          "points": 19
+        },
+        {
+          "text": "Church",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "question": "Name something that people shorten",
+      "multiplier": 3,
+      "answers": [
+        {
+          "text": "Skirt",
+          "points": 47
+        },
+        {
+          "text": "Pants",
+          "points": 22
+        },
+        {
+          "text": "Name",
+          "points": 17
+        },
+        {
+          "text": "Hair",
+          "points": 11
+        }
+      ]
+    }
+  ],
+  "fast_money": {
+    "target": 200,
+    "questions": [
+      {
+        "question": "Name something that neighbors borrow and don't return",
+        "answers": [
+          {
+            "text": "Sugar",
+            "points": 67
+          },
+          {
+            "text": "Eggs",
+            "points": 14
+          },
+          {
+            "text": "Garden Tools",
+            "points": 6
+          },
+          {
+            "text": "Flour",
+            "points": 2
+          }
+        ]
+      },
+      {
+        "question": "Name a place people are always rushing to go, because they're late",
+        "answers": [
+          {
+            "text": "Work",
+            "points": 83
+          },
+          {
+            "text": "Church",
+            "points": 9
+          },
+          {
+            "text": "Doctor's Office",
+            "points": 4
+          },
+          {
+            "text": "Airport",
+            "points": 2
+          }
+        ]
+      },
+      {
+        "question": "Name something people put on a cake",
+        "answers": [
+          {
+            "text": "Icing",
+            "points": 45
+          },
+          {
+            "text": "Candles",
+            "points": 44
+          },
+          {
+            "text": "Ice Cream",
+            "points": 6
+          }
+        ]
+      },
+      {
+        "question": "Name something that you associate with New England",
+        "answers": [
+          {
+            "text": "Clam Chowder",
+            "points": 35
+          },
+          {
+            "text": "Autumn Leaves",
+            "points": 14
+          },
+          {
+            "text": "Lobster",
+            "points": 9
+          },
+          {
+            "text": "Patriots",
+            "points": 6
+          },
+          {
+            "text": "Cape Cod",
+            "points": 5
+          },
+          {
+            "text": "Maple Syrup",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "question": "Name a kind of place where a lot of people live together",
+        "answers": [
+          {
+            "text": "Commune",
+            "points": 26
+          },
+          {
+            "text": "Apartment",
+            "points": 25
+          },
+          {
+            "text": "Dormitory",
+            "points": 24
+          },
+          {
+            "text": "Nursing Home",
+            "points": 11
+          },
+          {
+            "text": "Jail",
+            "points": 5
+          },
+          {
+            "text": "Army Base",
+            "points": 2
+          }
+        ]
+      }
+    ]
+  }
+}

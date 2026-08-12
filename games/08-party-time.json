@@ -1,0 +1,243 @@
+{
+  "title": "Game 08 — Party Time",
+  "rounds": [
+    {
+      "question": "Name something that happens at every child's birthday party",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Blow Out Candles",
+          "points": 25
+        },
+        {
+          "text": "Eat Cake",
+          "points": 19
+        },
+        {
+          "text": "Sing Happy Birthday",
+          "points": 18
+        },
+        {
+          "text": "Spill Things",
+          "points": 16
+        },
+        {
+          "text": "Play Games",
+          "points": 13
+        },
+        {
+          "text": "Open Presents",
+          "points": 5
+        },
+        {
+          "text": "Someone Cries",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "question": "Name something you might find in the pocket of a coat not recently worn",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Money",
+          "points": 70
+        },
+        {
+          "text": "Tissues",
+          "points": 16
+        },
+        {
+          "text": "Ticket Stub",
+          "points": 7
+        },
+        {
+          "text": "Glove",
+          "points": 2
+        },
+        {
+          "text": "Handkerchief",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Name something you often buy five pounds of at a time",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "Sugar",
+          "points": 50
+        },
+        {
+          "text": "Potatoes",
+          "points": 23
+        },
+        {
+          "text": "Flour",
+          "points": 15
+        },
+        {
+          "text": "Ground Beef",
+          "points": 7
+        },
+        {
+          "text": "Dog Food",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "question": "Name something most people try to keep secret about themselves",
+      "multiplier": 3,
+      "answers": [
+        {
+          "text": "Age",
+          "points": 31
+        },
+        {
+          "text": "Finances",
+          "points": 20
+        },
+        {
+          "text": "Love Life",
+          "points": 18
+        },
+        {
+          "text": "Weight",
+          "points": 18
+        },
+        {
+          "text": "Baby",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "fast_money": {
+    "target": 200,
+    "questions": [
+      {
+        "question": "Name something you operate by pushing a button",
+        "answers": [
+          {
+            "text": "Elevator",
+            "points": 37
+          },
+          {
+            "text": "Telephone",
+            "points": 13
+          },
+          {
+            "text": "Microwave",
+            "points": 10
+          },
+          {
+            "text": "TV",
+            "points": 8
+          },
+          {
+            "text": "Doorbell",
+            "points": 6
+          },
+          {
+            "text": "Blender",
+            "points": 4
+          }
+        ]
+      },
+      {
+        "question": "Name a high school subject",
+        "answers": [
+          {
+            "text": "English",
+            "points": 36
+          },
+          {
+            "text": "Math",
+            "points": 25
+          },
+          {
+            "text": "History",
+            "points": 8
+          },
+          {
+            "text": "Algebra",
+            "points": 7
+          },
+          {
+            "text": "Phys Ed",
+            "points": 4
+          },
+          {
+            "text": "Biology",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "question": "Tell me something you make a list of",
+        "answers": [
+          {
+            "text": "Shopping List",
+            "points": 83
+          },
+          {
+            "text": "Things To Do",
+            "points": 13
+          },
+          {
+            "text": "XMas Gifts",
+            "points": 2
+          }
+        ]
+      },
+      {
+        "question": "Name something in life that often becomes overdue",
+        "answers": [
+          {
+            "text": "Library Books",
+            "points": 31
+          },
+          {
+            "text": "Bills",
+            "points": 30
+          },
+          {
+            "text": "Baby",
+            "points": 9
+          },
+          {
+            "text": "Vacation",
+            "points": 9
+          },
+          {
+            "text": "Pay Raises",
+            "points": 4
+          }
+        ]
+      },
+      {
+        "question": "Name a kind of test people are nervous about taking",
+        "answers": [
+          {
+            "text": "Driving Test",
+            "points": 73
+          },
+          {
+            "text": "School",
+            "points": 10
+          },
+          {
+            "text": "Blood Test",
+            "points": 7
+          },
+          {
+            "text": "Lie Detector",
+            "points": 2
+          }
+        ]
+      }
+    ]
+  }
+}

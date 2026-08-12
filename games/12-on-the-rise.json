@@ -1,0 +1,259 @@
+{
+  "title": "Game 12 — On the Rise",
+  "rounds": [
+    {
+      "question": "Name something that rises, besides the sun and the moon",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Bread",
+          "points": 64
+        },
+        {
+          "text": "Tide",
+          "points": 9
+        },
+        {
+          "text": "Temperature",
+          "points": 5
+        },
+        {
+          "text": "Balloon",
+          "points": 4
+        },
+        {
+          "text": "Hot Air",
+          "points": 4
+        },
+        {
+          "text": "Flag",
+          "points": 2
+        },
+        {
+          "text": "Prices",
+          "points": 2
+        },
+        {
+          "text": "Smoke",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Tell me how many years a pro football career lasts",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "10",
+          "points": 50
+        },
+        {
+          "text": "15",
+          "points": 9
+        },
+        {
+          "text": "12",
+          "points": 4
+        },
+        {
+          "text": "20",
+          "points": 3
+        },
+        {
+          "text": "14",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Name something a little girl would need to dress up as a fairy princess",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "Wand",
+          "points": 49
+        },
+        {
+          "text": "Crown",
+          "points": 34
+        },
+        {
+          "text": "Fancy Dress",
+          "points": 12
+        },
+        {
+          "text": "High Heels",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "question": "Name something you like to be alone to do",
+      "multiplier": 3,
+      "answers": [
+        {
+          "text": "Read",
+          "points": 62
+        },
+        {
+          "text": "Bathe",
+          "points": 9
+        },
+        {
+          "text": "Write",
+          "points": 5
+        },
+        {
+          "text": "Clean",
+          "points": 4
+        }
+      ]
+    }
+  ],
+  "fast_money": {
+    "target": 200,
+    "questions": [
+      {
+        "question": "Name the age when you were in the best shape",
+        "answers": [
+          {
+            "text": "21",
+            "points": 21
+          },
+          {
+            "text": "25",
+            "points": 21
+          },
+          {
+            "text": "18",
+            "points": 19
+          },
+          {
+            "text": "20",
+            "points": 14
+          },
+          {
+            "text": "16",
+            "points": 8
+          },
+          {
+            "text": "22",
+            "points": 4
+          }
+        ]
+      },
+      {
+        "question": "Name something that kids carry in their bicycle baskets",
+        "answers": [
+          {
+            "text": "Books",
+            "points": 34
+          },
+          {
+            "text": "Pet",
+            "points": 18
+          },
+          {
+            "text": "Toys",
+            "points": 17
+          },
+          {
+            "text": "Lunch",
+            "points": 13
+          },
+          {
+            "text": "Newspapers",
+            "points": 5
+          },
+          {
+            "text": "Radio",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "question": "Name a weapon you throw",
+        "answers": [
+          {
+            "text": "Spear",
+            "points": 39
+          },
+          {
+            "text": "Knife",
+            "points": 23
+          },
+          {
+            "text": "Grenade",
+            "points": 7
+          },
+          {
+            "text": "Rock",
+            "points": 7
+          },
+          {
+            "text": "Arrow",
+            "points": 6
+          },
+          {
+            "text": "Dart",
+            "points": 6
+          }
+        ]
+      },
+      {
+        "question": "Name an occasion for which people gather in a church",
+        "answers": [
+          {
+            "text": "Wedding",
+            "points": 81
+          },
+          {
+            "text": "Sunday Services",
+            "points": 8
+          },
+          {
+            "text": "Baptism",
+            "points": 5
+          },
+          {
+            "text": "Easter",
+            "points": 2
+          },
+          {
+            "text": "Christmas",
+            "points": 1
+          }
+        ]
+      },
+      {
+        "question": "Name a state with a short name",
+        "answers": [
+          {
+            "text": "Ohio",
+            "points": 47
+          },
+          {
+            "text": "Iowa",
+            "points": 15
+          },
+          {
+            "text": "Utah",
+            "points": 15
+          },
+          {
+            "text": "Maine",
+            "points": 12
+          },
+          {
+            "text": "Idaho",
+            "points": 6
+          },
+          {
+            "text": "Texas",
+            "points": 3
+          }
+        ]
+      }
+    ]
+  }
+}

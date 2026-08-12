@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Family Feud — Board</title>
+<link rel="stylesheet" href="css/board.css">
+</head>
+<body class="audience">
+
+  <!-- Click-to-start splash: arms audio + offers fullscreen -->
+  <div id="splash">
+    <div class="logo">FAMILY<br>FEUD</div>
+    <div class="hint">Click anywhere to start the board (enables sound &amp; fullscreen)</div>
+  </div>
+
+  <!-- Title screen shown between game load and round 1 -->
+  <div id="title-screen">
+    <div class="logo">FAMILY<br>FEUD</div>
+    <div class="subtitle" id="title-sub">Get ready to play!</div>
+    <div class="teams-line" id="title-teams"></div>
+  </div>
+
+  <!-- Main round board -->
+  <div id="scorebar">
+    <div class="team-plate" id="plate-0">
+      <div class="tname">TEAM 1</div>
+      <div class="tscore">0</div>
+      <div class="strikes-mini"></div>
+    </div>
+    <div id="bank-plate">
+      <div class="blabel">BANK</div>
+      <div class="bvalue" id="bank-value">0</div>
+      <div id="multiplier-badge"></div>
+    </div>
+    <div class="team-plate" id="plate-1">
+      <div class="tname">TEAM 2</div>
+      <div class="tscore">0</div>
+      <div class="strikes-mini"></div>
+    </div>
+  </div>
+
+  <div id="question-bar"></div>
+
+  <div id="board-frame">
+    <div id="board"></div>
+  </div>
+
+  <!-- Round intro banner -->
+  <div id="round-banner"><div class="rb-text"></div></div>
+
+  <!-- Big red X overlay -->
+  <div id="strike-overlay"></div>
+
+  <!-- Fast Money -->
+  <div id="fastmoney">
+    <div id="fm-head">
+      <div class="fm-title">Fast Money</div>
+      <div id="fm-timer">20</div>
+    </div>
+    <div id="fm-grid"></div>
+    <div id="fm-foot">
+      <div id="fm-target"></div>
+      <div id="fm-total-plate">
+        <div class="blabel">TOTAL</div>
+        <div class="bvalue" id="fm-total">0</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Winner -->
+  <div id="winner-screen">
+    <div class="crown">&#127942;</div>
+    <div class="wlabel">WINNER</div>
+    <div class="wname"></div>
+    <div class="wscore"></div>
+  </div>
+
+  <script src="js/sounds.js"></script>
+  <script src="js/audience.js"></script>
+</body>
+</html>
