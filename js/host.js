@@ -532,6 +532,15 @@
       function (btn) { btn.style.display = visible ? '' : 'none'; });
   }
 
+  function updateCoverBtns() {
+    var covered = p1Covered();
+    Array.prototype.forEach.call(document.querySelectorAll('.fm-cover-btn'), function (btn) {
+      btn.textContent = covered
+        ? "Uncover Player 1's answers (text only — points stay hidden)"
+        : "Cover Player 1's answers on the TV";
+    });
+  }
+
   function renderAudienceStatus() {
     var s = el('audience-status');
     if (!audienceLive()) { s.textContent = 'Audience window: not open'; s.className = ''; }
@@ -578,6 +587,7 @@
     renderScores();
     renderFmEntry();
     renderFmReveal();
+    updateCoverBtns();
     renderAudienceStatus();
 
     el('btn-toggle-question').textContent = state.showQuestion
