@@ -1,0 +1,247 @@
+{
+  "title": "REAL Game 2",
+  "rounds": [
+    {
+      "question": "Name something people do at a wedding that they would never do at a funeral.",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Dance",
+          "points": 56
+        },
+        {
+          "text": "Laugh",
+          "points": 8
+        },
+        {
+          "text": "Smile",
+          "points": 8
+        },
+        {
+          "text": "Throw Rice",
+          "points": 8
+        },
+        {
+          "text": "Eat Cake",
+          "points": 5
+        },
+        {
+          "text": "Be Happy",
+          "points": 3
+        },
+        {
+          "text": "Celebrate",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "question": "Name something your husband tries to fix but often just makes it worse.",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Plumbing",
+          "points": 41
+        },
+        {
+          "text": "Car",
+          "points": 13
+        },
+        {
+          "text": "TV",
+          "points": 9
+        },
+        {
+          "text": "Relationship",
+          "points": 6
+        },
+        {
+          "text": "Fight",
+          "points": 5
+        },
+        {
+          "text": "Dinner",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "question": "Name something that might be sold at a funeral home's going out of business sale.",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "Coffins",
+          "points": 78
+        },
+        {
+          "text": "Urns",
+          "points": 7
+        },
+        {
+          "text": "Furniture/Pews",
+          "points": 7
+        },
+        {
+          "text": "Hearse",
+          "points": 3
+        },
+        {
+          "text": "Flowers/Wreaths",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "What do Santa Claus, the Easter Bunny, and the Tooth Fairy have in common?",
+      "multiplier": 3,
+      "answers": [
+        {
+          "text": "Some don't believe",
+          "points": 33
+        },
+        {
+          "text": "Special occasions",
+          "points": 26
+        },
+        {
+          "text": "Bring gifts",
+          "points": 18
+        },
+        {
+          "text": "Kids love them",
+          "points": 13
+        },
+        {
+          "text": "Visit at night",
+          "points": 3
+        }
+      ]
+    }
+  ],
+  "fast_money": {
+    "target": 200,
+    "questions": [
+      {
+        "question": "Other than illness, name an acceptable excuse for missing work.",
+        "answers": [
+          {
+            "text": "Funeral",
+            "points": 61
+          },
+          {
+            "text": "Car Trouble",
+            "points": 30
+          },
+          {
+            "text": "Jury Duty",
+            "points": 8
+          }
+        ]
+      },
+      {
+        "question": "Name something that follows the word \"roller\".",
+        "answers": [
+          {
+            "text": "Coaster",
+            "points": 63
+          },
+          {
+            "text": "Skates/Skater",
+            "points": 19
+          },
+          {
+            "text": "Derby",
+            "points": 8
+          },
+          {
+            "text": "Blade",
+            "points": 6
+          }
+        ]
+      },
+      {
+        "question": "Name something married people share that causes a lot of arguments.",
+        "answers": [
+          {
+            "text": "Money",
+            "points": 62
+          },
+          {
+            "text": "Car",
+            "points": 10
+          },
+          {
+            "text": "Bed",
+            "points": 9
+          },
+          {
+            "text": "Children",
+            "points": 6
+          },
+          {
+            "text": "Bathroom",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "question": "Name something people hate to find in their house.",
+        "answers": [
+          {
+            "text": "Bugs",
+            "points": 59
+          },
+          {
+            "text": "Mice",
+            "points": 26
+          },
+          {
+            "text": "Burglar",
+            "points": 4
+          },
+          {
+            "text": "Dirt",
+            "points": 3
+          },
+          {
+            "text": "Trash",
+            "points": 2
+          },
+          {
+            "text": "Animal droppings",
+            "points": 2
+          }
+        ]
+      },
+      {
+        "question": "Name a superhero you wouldn't want to pick a fight with.",
+        "answers": [
+          {
+            "text": "Superman",
+            "points": 39
+          },
+          {
+            "text": "Incredible Hulk",
+            "points": 21
+          },
+          {
+            "text": "Batman",
+            "points": 18
+          },
+          {
+            "text": "Spiderman",
+            "points": 9
+          },
+          {
+            "text": "Wolverine",
+            "points": 7
+          },
+          {
+            "text": "Wonder Woman",
+            "points": 5
+          }
+        ]
+      }
+    ]
+  }
+}

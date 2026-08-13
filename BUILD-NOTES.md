@@ -147,3 +147,32 @@ two commits authored as NoahSabb appeared in the repo ("Create feud-build-spec.m
 then "Sounds" at 18:27 covering sounds/ + the early BUILD-NOTES.md + the font) —
 presumably you or an auto-commit tool. I left them untouched; everything newer is
 sitting uncommitted in the working tree for your review.
+
+## REAL Rounds game (added later, on request)
+
+`games/29-real-rounds.json` — five boards transcribed from fan archives of the
+actual show (values as documented there, not generated):
+- R1 burglar-deterrent + R3 burglar-hate-to-see: familyfeudinfo.com question
+  pages 112227 / 119869 (R3 is the "Naked Grandma" question family).
+- R2 profession bitten by a dog (classic mail-carrier round): familyfeudinfo 103643.
+- R4 yellow fruit (the viral "Orange!" clip; shown as double points): familyfeudinfo 113646.
+- R5 three-letter animal (the viral "Frog!"/"Alligator!" clip; triple): familyfeudinfo 101568.
+Caveats: familyfeudinfo is a fan-transcribed database — some of its pages carry
+app-rank scores instead of real survey values; these five were picked because their
+values look authentic (sums 82–103). The famous "pork ___" board has no documented
+values anywhere I could find, so it was left out rather than faked. This game has
+no fast_money block (the app hides the Fast Money button for it).
+
+## UPDATE — REAL Rounds replaced by five full REAL games
+
+`29-real-rounds.json` (single 5-round game) was replaced, at the user's request, by
+**REAL Games 1–5** (`games/29..33-real-game-*.json`) — five full games, each 4 rounds
+(multipliers 1,1,2,3) + 5 fast-money questions, all 45 boards transcribed from the
+real show via familyfeudinfo.com. Boards were gathered by three parallel research
+passes (embarrassing situations / family & relationships / weird hypotheticals) with
+a strict authenticity gate: integer values 1–99, descending, per-board sums 60–105;
+app-rank junk (1000/999/998), synonym dumps, and garbage rows were rejected. The five
+previously-verified viral boards (yellow fruit, three-letter animal, both burglar
+boards, mail carrier) were folded in as anchors. Every board's source URL is listed
+in REAL-GAMES-SOURCES.md (repo root); spot-check any board by
+visiting its familyfeudinfo question page.

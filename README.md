@@ -70,7 +70,7 @@ commit. Nothing moves points without a click from you.
 
 ## The games library
 
-`games/` ships with **28 ready-to-play games** — each with 4 main rounds
+`games/` ships with **33 ready-to-play games** — each with 4 main rounds
 (single, single, double, triple) and a 5-question Fast Money — built from
 **1,977 real Family Feud survey questions** (harvested from the
 timlohnes/familyfeud repo) and curated for family-friendliness. Browse the
@@ -152,7 +152,7 @@ assets/         board font (Anton, SIL OFL) + background pattern
 start.command   double-click launcher (macOS)
 ```
 
-### The 28 games
+### The 33 games
 
 - **Game 01 — Vroom Vroom** (`games/01-vroom-vroom.json`) — opens with: *Name a vehicle you can recognize by the sound it makes*
 - **Game 02 — Spoon Fed** (`games/02-spoon-fed.json`) — opens with: *Name a fruit you eat with a spoon*
@@ -182,3 +182,8 @@ start.command   double-click launcher (macOS)
 - **Game 26 — Sports Seasons** (`games/26-sports-seasons.json`) — opens with: *Name a sport with a specific season*
 - **Game 27 — Daily Reads** (`games/27-daily-reads.json`) — opens with: *Name something you read every day, without fail*
 - **Game 28 — Home Cooking** (`games/28-home-cooking.json`) — opens with: *Name a food you can cook just as well as most restaurants*
+- **REAL Game 1** (`games/29-real-game-1.json`) — real-show boards: husband expertise, date-night disasters, grandpa vs. technology; FM incl. Frosty the Snowman's beverage ban.
+- **REAL Game 2** (`games/30-real-game-2.json`) — weddings vs. funerals, husband "repairs", the funeral home clearance sale, Santa/Easter Bunny/Tooth Fairy; FM incl. "roller ___".
+- **REAL Game 3** (`games/31-real-game-3.json`) — honeymoon contraband, if elephants could fly, wife criticism no-gos, the classic mail-carrier round; FM incl. the viral yellow-fruit board.
+- **REAL Game 4** (`games/32-real-game-4.json`) — hair horrors, dog commands from your boss, sharing a bathroom, the "Naked Grandma" burglar question; FM incl. the viral three-letter-animal board.
+- **REAL Game 5** (`games/33-real-game-5.json`) — purchases that need wife approval, burglar deterrents, dates gone wrong, the dreaded one-word text; FM incl. "shark ___".

@@ -111,6 +111,26 @@
     {
       "file": "28-home-cooking.json",
       "title": "Game 28 — Home Cooking"
+    },
+    {
+      "file": "29-real-game-1.json",
+      "title": "REAL Game 1"
+    },
+    {
+      "file": "30-real-game-2.json",
+      "title": "REAL Game 2"
+    },
+    {
+      "file": "31-real-game-3.json",
+      "title": "REAL Game 3"
+    },
+    {
+      "file": "32-real-game-4.json",
+      "title": "REAL Game 4"
+    },
+    {
+      "file": "33-real-game-5.json",
+      "title": "REAL Game 5"
     }
   ]
 }

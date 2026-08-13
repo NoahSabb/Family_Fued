@@ -1,0 +1,247 @@
+{
+  "title": "REAL Game 4",
+  "rounds": [
+    {
+      "question": "If you ran your fingers through a man's hair, what would you hate to find in it?",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Lice/Bugs",
+          "points": 50
+        },
+        {
+          "text": "Dandruff",
+          "points": 14
+        },
+        {
+          "text": "Dirt",
+          "points": 14
+        },
+        {
+          "text": "Oil/Grease",
+          "points": 10
+        },
+        {
+          "text": "Gel",
+          "points": 6
+        },
+        {
+          "text": "Extensions",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "question": "Name a command given to a dog that if your boss said it to you, you'd quit.",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Sit",
+          "points": 24
+        },
+        {
+          "text": "Heel",
+          "points": 20
+        },
+        {
+          "text": "Roll over",
+          "points": 16
+        },
+        {
+          "text": "Fetch",
+          "points": 12
+        },
+        {
+          "text": "Beg",
+          "points": 9
+        },
+        {
+          "text": "Down/Lie down",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "question": "We asked 100 married men: What was hard to share when you moved in with your wife?",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "Bathroom",
+          "points": 35
+        },
+        {
+          "text": "Bed",
+          "points": 23
+        },
+        {
+          "text": "Television",
+          "points": 11
+        },
+        {
+          "text": "Money",
+          "points": 9
+        },
+        {
+          "text": "Space",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "question": "Name something a burglar would hate to see",
+      "multiplier": 3,
+      "answers": [
+        {
+          "text": "Dog",
+          "points": 34
+        },
+        {
+          "text": "Police",
+          "points": 28
+        },
+        {
+          "text": "Alarm System",
+          "points": 25
+        },
+        {
+          "text": "Camera",
+          "points": 3
+        }
+      ]
+    }
+  ],
+  "fast_money": {
+    "target": 200,
+    "questions": [
+      {
+        "question": "Name something many people probably lie about in their personal ads.",
+        "answers": [
+          {
+            "text": "Age",
+            "points": 45
+          },
+          {
+            "text": "Weight",
+            "points": 27
+          },
+          {
+            "text": "Appearance",
+            "points": 14
+          },
+          {
+            "text": "Money",
+            "points": 4
+          }
+        ]
+      },
+      {
+        "question": "Name an animal with only three letters in its name",
+        "answers": [
+          {
+            "text": "Cat",
+            "points": 48
+          },
+          {
+            "text": "Dog",
+            "points": 17
+          },
+          {
+            "text": "Pig",
+            "points": 6
+          },
+          {
+            "text": "Elk",
+            "points": 6
+          },
+          {
+            "text": "Ape",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "question": "Noah didn't do us any favor by allowing what creature onto the ark?",
+        "answers": [
+          {
+            "text": "Mosquitos/Bugs",
+            "points": 43
+          },
+          {
+            "text": "Snakes",
+            "points": 30
+          },
+          {
+            "text": "Alligators/Crocs",
+            "points": 6
+          },
+          {
+            "text": "Skunks",
+            "points": 4
+          },
+          {
+            "text": "People",
+            "points": 4
+          }
+        ]
+      },
+      {
+        "question": "Name an animal you wouldn't want to give mouth to mouth to.",
+        "answers": [
+          {
+            "text": "Dog",
+            "points": 17
+          },
+          {
+            "text": "Pig",
+            "points": 15
+          },
+          {
+            "text": "Snake",
+            "points": 13
+          },
+          {
+            "text": "Rat",
+            "points": 8
+          },
+          {
+            "text": "Lion",
+            "points": 7
+          },
+          {
+            "text": "Alligator",
+            "points": 6
+          }
+        ]
+      },
+      {
+        "question": "Tell me something you've accidentally dropped in the toilet",
+        "answers": [
+          {
+            "text": "Phone",
+            "points": 37
+          },
+          {
+            "text": "Jewelry/Watch",
+            "points": 22
+          },
+          {
+            "text": "Toothbrush",
+            "points": 13
+          },
+          {
+            "text": "Comb/Hairbrush",
+            "points": 9
+          },
+          {
+            "text": "Keys",
+            "points": 8
+          },
+          {
+            "text": "Glasses",
+            "points": 5
+          }
+        ]
+      }
+    ]
+  }
+}

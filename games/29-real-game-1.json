@@ -1,0 +1,247 @@
+{
+  "title": "REAL Game 1",
+  "rounds": [
+    {
+      "question": "Name something you wish your husband was an expert at doing.",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Fixing things/car",
+          "points": 36
+        },
+        {
+          "text": "Housework/laundry",
+          "points": 16
+        },
+        {
+          "text": "Cooking",
+          "points": 13
+        },
+        {
+          "text": "Making money",
+          "points": 10
+        },
+        {
+          "text": "Making love",
+          "points": 7
+        },
+        {
+          "text": "Driving",
+          "points": 4
+        },
+        {
+          "text": "Take care of kids",
+          "points": 3
+        },
+        {
+          "text": "Yard work",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "question": "Name something a woman hopes doesn't break right before going out on a big date.",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Shoe/heel",
+          "points": 46
+        },
+        {
+          "text": "Fingernail",
+          "points": 34
+        },
+        {
+          "text": "Bra",
+          "points": 6
+        },
+        {
+          "text": "Car",
+          "points": 4
+        },
+        {
+          "text": "Hair dryer",
+          "points": 3
+        },
+        {
+          "text": "Her water",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "question": "Where might a man take you on a first date that would keep him from getting a second date?",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "Bar",
+          "points": 33
+        },
+        {
+          "text": "Strip Club",
+          "points": 28
+        },
+        {
+          "text": "Fast Food Restaurant",
+          "points": 17
+        },
+        {
+          "text": "Zoo",
+          "points": 12
+        },
+        {
+          "text": "Sports Game",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "question": "Name something in your house that grandpa wouldn't know how to turn on.",
+      "multiplier": 3,
+      "answers": [
+        {
+          "text": "Computer/laptop",
+          "points": 62
+        },
+        {
+          "text": "TV",
+          "points": 20
+        },
+        {
+          "text": "DVD/VCR/DVR",
+          "points": 10
+        },
+        {
+          "text": "Cell phone",
+          "points": 3
+        },
+        {
+          "text": "Coffee maker",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "fast_money": {
+    "target": 200,
+    "questions": [
+      {
+        "question": "Name a beverage you'd never serve to Frosty the Snowman",
+        "answers": [
+          {
+            "text": "Coffee",
+            "points": 46
+          },
+          {
+            "text": "Hot Chocolate",
+            "points": 41
+          },
+          {
+            "text": "Hot Tea",
+            "points": 7
+          }
+        ]
+      },
+      {
+        "question": "If your dog could talk, what might he say?",
+        "answers": [
+          {
+            "text": "Feed me",
+            "points": 57
+          },
+          {
+            "text": "Walk me",
+            "points": 12
+          },
+          {
+            "text": "Treats",
+            "points": 6
+          },
+          {
+            "text": "You're crazy",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "question": "Name something you wouldn't want someone to stick you with.",
+        "answers": [
+          {
+            "text": "Bills/Debt",
+            "points": 34
+          },
+          {
+            "text": "Needle/Pin",
+            "points": 34
+          },
+          {
+            "text": "Knife/Sword",
+            "points": 20
+          },
+          {
+            "text": "Kid/Babysitting",
+            "points": 6
+          },
+          {
+            "text": "Pet/Dog",
+            "points": 4
+          }
+        ]
+      },
+      {
+        "question": "Tell me something about a zombie.",
+        "answers": [
+          {
+            "text": "Undead",
+            "points": 34
+          },
+          {
+            "text": "Ugly",
+            "points": 14
+          },
+          {
+            "text": "Walk funny",
+            "points": 11
+          },
+          {
+            "text": "Scary",
+            "points": 10
+          },
+          {
+            "text": "Not real",
+            "points": 7
+          }
+        ]
+      },
+      {
+        "question": "Name something a wife tells her husband he needs to change.",
+        "answers": [
+          {
+            "text": "Clothes",
+            "points": 48
+          },
+          {
+            "text": "Attitude",
+            "points": 25
+          },
+          {
+            "text": "Hair",
+            "points": 5
+          },
+          {
+            "text": "Staying out late",
+            "points": 4
+          },
+          {
+            "text": "Eating habits",
+            "points": 3
+          },
+          {
+            "text": "Job",
+            "points": 3
+          }
+        ]
+      }
+    ]
+  }
+}

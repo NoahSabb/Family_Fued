@@ -1,0 +1,251 @@
+{
+  "title": "REAL Game 3",
+  "rounds": [
+    {
+      "question": "Name something that a man had better not take along on his honeymoon.",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Another woman",
+          "points": 33
+        },
+        {
+          "text": "Cell phone",
+          "points": 17
+        },
+        {
+          "text": "His parents",
+          "points": 14
+        },
+        {
+          "text": "Work/laptop",
+          "points": 12
+        },
+        {
+          "text": "His best friend",
+          "points": 6
+        },
+        {
+          "text": "Golf clubs",
+          "points": 5
+        },
+        {
+          "text": "His pet",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "question": "Having a bird poop on you is bad. But imagine how much worse it would be if ___s could fly.",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Elephants",
+          "points": 29
+        },
+        {
+          "text": "Cows",
+          "points": 22
+        },
+        {
+          "text": "Pigs",
+          "points": 21
+        },
+        {
+          "text": "Dogs",
+          "points": 7
+        },
+        {
+          "text": "Humans",
+          "points": 3
+        },
+        {
+          "text": "Rats",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "We surveyed 100 married men... Name something about your wife you wouldn't dare criticize.",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "Her weight/figure",
+          "points": 46
+        },
+        {
+          "text": "Her cooking",
+          "points": 19
+        },
+        {
+          "text": "Hair/face",
+          "points": 18
+        },
+        {
+          "text": "Way she dresses",
+          "points": 5
+        },
+        {
+          "text": "Her parents",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "question": "Name a profession where you might be bitten by a dog",
+      "multiplier": 3,
+      "answers": [
+        {
+          "text": "Mail Carrier",
+          "points": 53
+        },
+        {
+          "text": "Dog Catcher",
+          "points": 25
+        },
+        {
+          "text": "Veterinarian",
+          "points": 18
+        },
+        {
+          "text": "Police",
+          "points": 4
+        }
+      ]
+    }
+  ],
+  "fast_money": {
+    "target": 200,
+    "questions": [
+      {
+        "question": "Name something you wouldn't want to step on while barefoot on a beach.",
+        "answers": [
+          {
+            "text": "Crab",
+            "points": 32
+          },
+          {
+            "text": "Glass",
+            "points": 29
+          },
+          {
+            "text": "Seashells",
+            "points": 21
+          },
+          {
+            "text": "Jellyfish",
+            "points": 16
+          }
+        ]
+      },
+      {
+        "question": "Name a yellow fruit",
+        "answers": [
+          {
+            "text": "Banana",
+            "points": 50
+          },
+          {
+            "text": "Lemon",
+            "points": 26
+          },
+          {
+            "text": "Pineapple",
+            "points": 10
+          },
+          {
+            "text": "Pear",
+            "points": 8
+          },
+          {
+            "text": "Apple",
+            "points": 6
+          }
+        ]
+      },
+      {
+        "question": "Name something parents do to their children to embarrass them.",
+        "answers": [
+          {
+            "text": "Kiss them",
+            "points": 35
+          },
+          {
+            "text": "Show baby pictures",
+            "points": 25
+          },
+          {
+            "text": "Yell at them",
+            "points": 18
+          },
+          {
+            "text": "Brag",
+            "points": 13
+          },
+          {
+            "text": "Dance",
+            "points": 9
+          }
+        ]
+      },
+      {
+        "question": "Name something you would hate to find in your cellar.",
+        "answers": [
+          {
+            "text": "Rat",
+            "points": 58
+          },
+          {
+            "text": "Bugs",
+            "points": 15
+          },
+          {
+            "text": "Water",
+            "points": 12
+          },
+          {
+            "text": "Burglar",
+            "points": 5
+          },
+          {
+            "text": "Snake",
+            "points": 5
+          },
+          {
+            "text": "Dead body",
+            "points": 2
+          }
+        ]
+      },
+      {
+        "question": "Name a zoo animal you would be surprised had the name \"Cuddles\".",
+        "answers": [
+          {
+            "text": "Lion",
+            "points": 33
+          },
+          {
+            "text": "Bear",
+            "points": 18
+          },
+          {
+            "text": "Snake/Python",
+            "points": 12
+          },
+          {
+            "text": "Gator/Croc",
+            "points": 12
+          },
+          {
+            "text": "Tiger",
+            "points": 12
+          },
+          {
+            "text": "Elephant",
+            "points": 11
+          }
+        ]
+      }
+    ]
+  }
+}

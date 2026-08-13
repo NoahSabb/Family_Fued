@@ -1,0 +1,243 @@
+{
+  "title": "REAL Game 5",
+  "rounds": [
+    {
+      "question": "We asked 100 married men... Name something you wouldn't dare buy without first asking your wife.",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Car",
+          "points": 50
+        },
+        {
+          "text": "Clothes",
+          "points": 14
+        },
+        {
+          "text": "House",
+          "points": 13
+        },
+        {
+          "text": "Jewelry",
+          "points": 7
+        },
+        {
+          "text": "Furniture",
+          "points": 6
+        },
+        {
+          "text": "Tools",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Name something a burglar might see that stops him from breaking into a house",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Dog",
+          "points": 55
+        },
+        {
+          "text": "Alarm System",
+          "points": 33
+        },
+        {
+          "text": "Warning Sign",
+          "points": 11
+        },
+        {
+          "text": "Cameras",
+          "points": 2
+        },
+        {
+          "text": "Light",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "You know it's not working when you're on a date wishing you were where?",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "Home/bed",
+          "points": 73
+        },
+        {
+          "text": "Work",
+          "points": 14
+        },
+        {
+          "text": "Anywhere else",
+          "points": 6
+        },
+        {
+          "text": "Dentist",
+          "points": 4
+        },
+        {
+          "text": "Jail",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "We asked 100 married men: Give me one word you'd hate to see in a text message from your wife.",
+      "multiplier": 3,
+      "answers": [
+        {
+          "text": "Divorce",
+          "points": 48
+        },
+        {
+          "text": "Leaving",
+          "points": 19
+        },
+        {
+          "text": "Shopping",
+          "points": 18
+        },
+        {
+          "text": "Money",
+          "points": 15
+        }
+      ]
+    }
+  ],
+  "fast_money": {
+    "target": 200,
+    "questions": [
+      {
+        "question": "On a hot day name something a person might do in the nude.",
+        "answers": [
+          {
+            "text": "Swim",
+            "points": 46
+          },
+          {
+            "text": "Sun tan",
+            "points": 31
+          },
+          {
+            "text": "Clean the house",
+            "points": 7
+          },
+          {
+            "text": "Sleep",
+            "points": 4
+          }
+        ]
+      },
+      {
+        "question": "Name something you wouldn't want your kid bringing home from school.",
+        "answers": [
+          {
+            "text": "Lice",
+            "points": 31
+          },
+          {
+            "text": "Bad Grades",
+            "points": 24
+          },
+          {
+            "text": "Drugs",
+            "points": 21
+          },
+          {
+            "text": "Illness",
+            "points": 7
+          },
+          {
+            "text": "Germs",
+            "points": 6
+          }
+        ]
+      },
+      {
+        "question": "Name something that follows the word \"shark\".",
+        "answers": [
+          {
+            "text": "Tank",
+            "points": 35
+          },
+          {
+            "text": "Attack",
+            "points": 31
+          },
+          {
+            "text": "Bait",
+            "points": 23
+          },
+          {
+            "text": "Tale/Tail",
+            "points": 4
+          },
+          {
+            "text": "Week",
+            "points": 4
+          }
+        ]
+      },
+      {
+        "question": "Name something you might do on a first date that ruins it.",
+        "answers": [
+          {
+            "text": "Pass Gas",
+            "points": 42
+          },
+          {
+            "text": "Throw Up/Get Sick",
+            "points": 18
+          },
+          {
+            "text": "Talk Too Much",
+            "points": 11
+          },
+          {
+            "text": "Go Home Together",
+            "points": 9
+          },
+          {
+            "text": "Get Drunk",
+            "points": 7
+          },
+          {
+            "text": "Talk About Ex",
+            "points": 6
+          }
+        ]
+      },
+      {
+        "question": "Name something embarrassing that might happen while you're laughing",
+        "answers": [
+          {
+            "text": "Pass Gas",
+            "points": 23
+          },
+          {
+            "text": "Pee",
+            "points": 20
+          },
+          {
+            "text": "Snort",
+            "points": 18
+          },
+          {
+            "text": "Spit",
+            "points": 15
+          },
+          {
+            "text": "Teeth Fall Out",
+            "points": 7
+          },
+          {
+            "text": "Cry",
+            "points": 7
+          }
+        ]
+      }
+    ]
+  }
+}
