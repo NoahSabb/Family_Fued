@@ -186,3 +186,12 @@ invisible); guard now only applies while a text input is focused. (2) The
 audience board stayed blank during answer collection; now, like the real show,
 each recorded answer's TEXT appears on the TV board immediately (with the reveal
 whoosh) and only the POINTS wait for the Big Reveal step.
+
+## Fix — Fast Money cover/recap (post-playtest #2)
+
+Added show-accurate covering: switching to Player 2 automatically covers Player 1's
+answers on the TV board, and "Cover Player 1's answers" buttons (in both the entry
+and Big Reveal stages) let the host cover/re-reveal at will. In the Big Reveal grid,
+"Reveal answer" uncovers an answer (whoosh) and "Reveal points" scores it, one at a
+time. "Go to the Big Reveal" is now always visible during Fast Money so the points
+step can't be missed.
