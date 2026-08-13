@@ -365,7 +365,15 @@
   }
 
   /* Cover Player 1's answers on the audience board (like the show does when
-   * Player 2 comes back). Re-reveal one at a time in the Big Reveal grid. */
+   * Player 2 comes back). The button is a toggle: click again to bring back
+   * all the answer TEXT at once (points stay hidden until revealed). */
+  function p1Covered() {
+    var fm = state.fastMoney;
+    if (!fm) return false;
+    var recorded = fm.players[0].answers.filter(Boolean);
+    return recorded.length > 0 && recorded.every(function (a) { return !a.textRevealed; });
+  }
+
   function fmCoverP1() {
     if (!state.fastMoney) return;
     state.fastMoney.players[0].answers.forEach(function (a) {
@@ -374,8 +382,18 @@
     commit(null);
   }
 
+  function fmUncoverP1() {
+    if (!state.fastMoney) return;
+    state.fastMoney.players[0].answers.forEach(function (a) {
+      if (a) a.textRevealed = true; // text only — points stay as they were
+    });
+    commit({ cue: 'fm-reveal' });
+  }
+
   Array.prototype.forEach.call(document.querySelectorAll('.fm-cover-btn'), function (btn) {
-    btn.addEventListener('click', fmCoverP1);
+    btn.addEventListener('click', function () {
+      if (p1Covered()) fmUncoverP1(); else fmCoverP1();
+    });
   });
 
   el('btn-fm-next-player').addEventListener('click', function () {
