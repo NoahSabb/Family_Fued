@@ -102,13 +102,19 @@
           </div>
           <div id="fm-entry"></div>
           <div class="btn-row" style="margin-top:8px">
-            <button id="btn-fm-next-player" class="gold big">Done — switch to Player 2</button>
-            <button id="btn-fm-to-reveal" class="gold big">Done — go to the Big Reveal</button>
+            <button class="fm-cover-btn wide">Cover Player 1's answers on the TV</button>
+          </div>
+          <div class="btn-row">
+            <button id="btn-fm-next-player" class="gold big">Done — switch to Player 2 (covers P1's answers)</button>
+            <button id="btn-fm-to-reveal" class="gold big">Go to the Big Reveal (points)</button>
           </div>
         </div>
 
         <div class="stage-block" data-stage="fm-reveal">
-          <div class="hint">The answers are already up on the board — reveal each one's points in order (ding or buzzer fires automatically). Hit the target and the total goes gold.</div>
+          <div class="hint">Work down the grid: <b>Reveal answer</b> uncovers a covered answer (whoosh), <b>Reveal points</b> shows its score (ding or buzzer fires automatically). Hit the target and the total goes gold.</div>
+          <div class="btn-row">
+            <button class="fm-cover-btn wide">Cover Player 1's answers again (for the recap)</button>
+          </div>
           <div class="fm-reveal-grid" id="fm-reveal-grid"></div>
         </div>
 

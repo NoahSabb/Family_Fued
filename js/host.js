@@ -364,10 +364,25 @@
     setTimeout(function () { delete fmDupFlash[qi]; renderFmEntry(); }, 2500);
   }
 
+  /* Cover Player 1's answers on the audience board (like the show does when
+   * Player 2 comes back). Re-reveal one at a time in the Big Reveal grid. */
+  function fmCoverP1() {
+    if (!state.fastMoney) return;
+    state.fastMoney.players[0].answers.forEach(function (a) {
+      if (a) { a.textRevealed = false; a.pointsRevealed = false; }
+    });
+    commit(null);
+  }
+
+  Array.prototype.forEach.call(document.querySelectorAll('.fm-cover-btn'), function (btn) {
+    btn.addEventListener('click', fmCoverP1);
+  });
+
   el('btn-fm-next-player').addEventListener('click', function () {
     state.fastMoney.currentPlayer = 1;
     clearInterval(timerInterval);
     state.timer = { remaining: 25, running: false, visible: false };
+    fmCoverP1(); // board goes blank for Player 2, exactly like the show
     commit({ stopCue: 'clock' });
   });
 
@@ -494,6 +509,11 @@
     'fm-play': 'Fast money — answers', 'fm-reveal': 'Fast money — reveal', gameover: 'Game over'
   };
 
+  function setCoverBtnVisible(visible) {
+    Array.prototype.forEach.call(document.querySelectorAll('.stage-block[data-stage="fm-play"] .fm-cover-btn'),
+      function (btn) { btn.style.display = visible ? '' : 'none'; });
+  }
+
   function renderAudienceStatus() {
     var s = el('audience-status');
     if (!audienceLive()) { s.textContent = 'Audience window: not open'; s.className = ''; }
@@ -613,16 +633,18 @@
       el('fm-play-hint').textContent = 'Pick the team, send Player 2 out of earshot, then start the clock for Player 1.';
       el('btn-fm-next-player').style.display = 'none';
       el('btn-fm-to-reveal').style.display = 'none';
+      setCoverBtnVisible(false);
       return;
     }
 
     var p = fm.currentPlayer;
     el('fm-play-hint').textContent = 'PLAYER ' + (p + 1) + ' of ' + state.teams[fm.playingTeam].name +
       ' — read the 5 questions fast. Click the matching survey answer (or type it) as they answer. ' +
-      (p === 1 ? 'Duplicates buzz automatically — ask for another answer.'
+      (p === 1 ? 'P1’s answers are covered on the TV. Duplicates buzz automatically — ask for another answer.'
                : 'Answers appear on the TV board as you record them; points stay hidden for the reveal.');
     el('btn-fm-next-player').style.display = p === 0 ? '' : 'none';
-    el('btn-fm-to-reveal').style.display = p === 1 ? '' : 'none';
+    el('btn-fm-to-reveal').style.display = '';
+    setCoverBtnVisible(true);
 
     wrap.innerHTML = '';
     fm.questions.forEach(function (q, qi) {
