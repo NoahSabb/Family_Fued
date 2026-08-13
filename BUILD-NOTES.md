@@ -195,3 +195,9 @@ and Big Reveal stages) let the host cover/re-reveal at will. In the Big Reveal g
 "Reveal answer" uncovers an answer (whoosh) and "Reveal points" scores it, one at a
 time. "Go to the Big Reveal" is now always visible during Fast Money so the points
 step can't be missed.
+
+## Tweak — cover button is now a toggle
+
+The Fast Money cover button toggles: first click covers Player 1's answers
+(text + any shown points); second click brings back all the answer TEXT at once
+(with the reveal whoosh) while points stay hidden. Label updates to match state.
