@@ -176,3 +176,13 @@ previously-verified viral boards (yellow fruit, three-letter animal, both burgla
 boards, mail carrier) were folded in as anchors. Every board's source URL is listed
 in REAL-GAMES-SOURCES.md (repo root); spot-check any board by
 visiting its familyfeudinfo question page.
+
+## Fix — Fast Money entry (post-playtest)
+
+Two bugs from the first family playtest: (1) a focus guard meant to protect
+typing during the ticking clock also blocked re-renders after button clicks, so
+recorded answers never appeared on the host panel (they were recorded, just
+invisible); guard now only applies while a text input is focused. (2) The
+audience board stayed blank during answer collection; now, like the real show,
+each recorded answer's TEXT appears on the TV board immediately (with the reveal
+whoosh) and only the POINTS wait for the Big Reveal step.

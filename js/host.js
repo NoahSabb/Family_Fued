@@ -345,14 +345,16 @@
         return;
       }
     }
+    // Like the show: the answer text pops onto the audience board immediately;
+    // only the points stay hidden until the Big Reveal.
     fm.players[p].answers[qi] = {
       text: text || '(no answer)',
       points: points || 0,
       duplicate: false,
-      textRevealed: false,
+      textRevealed: true,
       pointsRevealed: false
     };
-    commit(null);
+    commit({ cue: 'fm-reveal' });
   }
 
   var fmDupFlash = {};
@@ -589,9 +591,11 @@
   function renderFmEntry() {
     var wrap = el('fm-entry');
     if (state.stage !== 'fm-play' || !state.fastMoney) { wrap.innerHTML = ''; return; }
-    // Don't rebuild (and wipe) the panel while the host is typing in it —
-    // the ticking clock commits state every second.
-    if (wrap.contains(document.activeElement)) return;
+    // Don't rebuild (and wipe) the panel while the host is typing in a text
+    // field — the ticking clock commits state every second. Buttons must not
+    // block the rebuild, or recorded answers never show up on this panel.
+    var ae = document.activeElement;
+    if (wrap.contains(ae) && ae.tagName === 'INPUT') return;
     var fm = state.fastMoney;
 
     if (fm.playingTeam === null) {
@@ -615,7 +619,8 @@
     var p = fm.currentPlayer;
     el('fm-play-hint').textContent = 'PLAYER ' + (p + 1) + ' of ' + state.teams[fm.playingTeam].name +
       ' — read the 5 questions fast. Click the matching survey answer (or type it) as they answer. ' +
-      (p === 1 ? 'Duplicates buzz automatically — ask for another answer.' : 'The audience screen shows nothing yet.');
+      (p === 1 ? 'Duplicates buzz automatically — ask for another answer.'
+               : 'Answers appear on the TV board as you record them; points stay hidden for the reveal.');
     el('btn-fm-next-player').style.display = p === 0 ? '' : 'none';
     el('btn-fm-to-reveal').style.display = p === 1 ? '' : 'none';
 

@@ -60,7 +60,8 @@ explicitly reveal).
 7. **Fast Money** — pick the team, send Player 2 out of earshot, start the
    20-second clock (25 for Player 2). Record each answer by clicking the
    matching survey answer, or type their exact words with a point value.
-   Duplicate answers buzz automatically. Then run the **Big Reveal**: answer,
+   Each answer pops onto the TV board the moment you record it (points stay
+   hidden). Duplicate answers buzz automatically. Then run the **Big Reveal**: answer,
    points, answer, points — 200 points wins (gold flash + applause).
 8. **Winner** — *Declare winner* shows the champion screen with the final score.
 9. **New game (reset)** — loads a fresh game file for another round of feuding.
